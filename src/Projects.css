@@ -5,6 +5,11 @@
    flex-flow: column;
 
 }
+.MainDivPrj button {
+  background-image: url('./Pictures/transparentButton.png');
+  background-size: stretch;
+  color:aquamarine;
+}
 .Semester2{
     color: aquamarine;
     background-color: darkslategray;

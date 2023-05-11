@@ -7,7 +7,7 @@ function NavBar(){
         {
             id: 1,
             path: "/",
-            text: "HomePage"
+            text: "Home page"
         },
         {
             id: 2,

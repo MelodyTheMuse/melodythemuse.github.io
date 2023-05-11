@@ -5,12 +5,37 @@ import Game from "./Pictures/WebsiteGameIMade.png"
 import driessen from "./Pictures/Driessen.png"
 import dreaner from "./Pictures/Dreamersteve.png"
 import cloudpeak from "./Pictures/Cloudpeak.png"
+import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Projects(){
+
+    const navigate = useNavigate();
+
+const HandleSumbitSem2 = (e) => {
+    e.preventDefault();
+    console.log("Change the page");
+ return navigate('/Semester2')
+}
+
+const HandleSumbitSem3 = (e) => {
+    e.preventDefault();
+    console.log("Change the page");
+ return navigate('/Semester3')
+}
+
+const HandleSumbitSem4 = (e) => {
+    e.preventDefault();
+    console.log("Change the page");
+ return navigate('/Semester4')
+}
     return(
 <div className="MainDivPrj">
 <div className="Semester2">
+
 <header>
+    
+<form onSubmit={HandleSumbitSem2}> 
     <h1>
         These are the projects form semster 2
     </h1>
@@ -26,11 +51,13 @@ export default function Projects(){
         </li>
 
     </ul>
-    <a href="../Semester2">learn more</a>
+  <button type="Submit" > Click to learn more</button>
+  </form>
 </header>
 </div>
 <div className="Semester3">
 <header>
+    <form onSubmit={HandleSumbitSem3}>
     <h1>
         These are the projects from semester 3
     </h1>
@@ -57,12 +84,14 @@ export default function Projects(){
            
         </li>
     </ul>
-    <a href="../Semester3">Learn more!</a>
+  <button type="Submit" > Click to learn more</button>
+    </form>
 </header>
 </div>
 
 <div className="Semester4">
 <header>
+    <form onSubmit={HandleSumbitSem4}> 
     <h1>
         These are the projects from semester 4 so far
     </h1>
@@ -81,10 +110,11 @@ export default function Projects(){
             />
         </li>
     </ul>
-    <a href="../Semester4">Learn more!</a>
+  <button type="Submit" > Click to learn more</button>
+    </form>
 </header>
-</div>
 
+</div>
 </div>
     )
 };

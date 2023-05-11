@@ -2,7 +2,7 @@
 .navbar {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   
 
 }
@@ -16,14 +16,22 @@
 .navbar li{
   list-style-type: none;
   margin: 0 1rem;
-  color: black
+  color: black;
+ 
 
 }
 .navbar li a{
+  margin-top: 1vh;
   text-decoration: none;
   display: block;
   width: 100%;
-  height: auto;
+  height: auto;  
+  background-image: url('../Pictures/transparentButton.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  color:aquamarine;
+  min-width: 10vh;
+  min-height: 5vh;
 }
 .navbar a{
   text-decoration: none;
