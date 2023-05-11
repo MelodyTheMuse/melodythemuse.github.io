@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6b56907.css",
-    "main.js": "/static/js/main.6f16fe45.js",
-    "static/js/787.9569f6a2.chunk.js": "/static/js/787.9569f6a2.chunk.js",
-    "static/media/SL_101619_24150_55.jpg": "/static/media/SL_101619_24150_55.d0c005cdad3e1cb17eb9.jpg",
-    "static/media/Dreamersteve.png": "/static/media/Dreamersteve.1ffa719227ca678c510a.png",
-    "static/media/Fontys.png": "/static/media/Fontys.0573017f3218caa5e495.png",
-    "static/media/CloudpeakCombat.png": "/static/media/CloudpeakCombat.62609b78258fa9333bed.png",
-    "static/media/GitlabProfile.png": "/static/media/GitlabProfile.0317d762068c97c4037b.png",
-    "static/media/mediaBazaarHR.png": "/static/media/mediaBazaarHR.4f391df74757e65fc5a8.png",
-    "static/media/WebsiteGameIMade.png": "/static/media/WebsiteGameIMade.eee2052b690c762dbdb1.png",
-    "static/media/Cloudpeak.png": "/static/media/Cloudpeak.b1cc1104f1efb800e8dc.png",
-    "index.html": "/index.html",
-    "main.a6b56907.css.map": "/static/css/main.a6b56907.css.map",
-    "main.6f16fe45.js.map": "/static/js/main.6f16fe45.js.map",
-    "787.9569f6a2.chunk.js.map": "/static/js/787.9569f6a2.chunk.js.map"
+    "main.css": "/gh-pages/static/css/main.cadc2b4f.css",
+    "main.js": "/gh-pages/static/js/main.7b9dfded.js",
+    "static/js/787.9569f6a2.chunk.js": "/gh-pages/static/js/787.9569f6a2.chunk.js",
+    "static/media/SL_101619_24150_55.jpg": "/gh-pages/static/media/SL_101619_24150_55.d0c005cdad3e1cb17eb9.jpg",
+    "static/media/Dreamersteve.png": "/gh-pages/static/media/Dreamersteve.1ffa719227ca678c510a.png",
+    "static/media/Fontys.png": "/gh-pages/static/media/Fontys.0573017f3218caa5e495.png",
+    "static/media/CloudpeakCombat.png": "/gh-pages/static/media/CloudpeakCombat.62609b78258fa9333bed.png",
+    "static/media/GitlabProfile.png": "/gh-pages/static/media/GitlabProfile.0317d762068c97c4037b.png",
+    "static/media/mediaBazaarHR.png": "/gh-pages/static/media/mediaBazaarHR.4f391df74757e65fc5a8.png",
+    "static/media/WebsiteGameIMade.png": "/gh-pages/static/media/WebsiteGameIMade.eee2052b690c762dbdb1.png",
+    "static/media/Cloudpeak.png": "/gh-pages/static/media/Cloudpeak.b1cc1104f1efb800e8dc.png",
+    "index.html": "/gh-pages/index.html",
+    "main.cadc2b4f.css.map": "/gh-pages/static/css/main.cadc2b4f.css.map",
+    "main.7b9dfded.js.map": "/gh-pages/static/js/main.7b9dfded.js.map",
+    "787.9569f6a2.chunk.js.map": "/gh-pages/static/js/787.9569f6a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6b56907.css",
-    "static/js/main.6f16fe45.js"
+    "static/css/main.cadc2b4f.css",
+    "static/js/main.7b9dfded.js"
   ]
 }
