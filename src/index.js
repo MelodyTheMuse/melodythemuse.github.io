@@ -8,9 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <footer> 
-      <p> Website by Keano Dussel</p>
-    </footer>
+   
   </React.StrictMode>
 );
 
