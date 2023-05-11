@@ -1,6 +1,5 @@
 import React from "react";
 import './App.css';
-import logo from './logo512.png'
 import BsCarousal from "./Components/BsCarousal";
 
 function Landing() {

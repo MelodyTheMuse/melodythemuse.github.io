@@ -26,7 +26,7 @@ export default function Projects(){
         </li>
 
     </ul>
-    <a href="./Semester2">learn more</a>
+    <a href="../Semester2">learn more</a>
 </header>
 </div>
 <div className="Semester3">
@@ -57,7 +57,7 @@ export default function Projects(){
            
         </li>
     </ul>
-    <a href="./Semester3">Learn more!</a>
+    <a href="../Semester3">Learn more!</a>
 </header>
 </div>
 
@@ -81,7 +81,7 @@ export default function Projects(){
             />
         </li>
     </ul>
-    <a href="./Semester4">Learn more!</a>
+    <a href="../Semester4">Learn more!</a>
 </header>
 </div>
 
