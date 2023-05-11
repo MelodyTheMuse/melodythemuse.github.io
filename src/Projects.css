@@ -1,0 +1,60 @@
+.MainDivPrj{
+   
+    opacity: 80%;
+   display: flex;
+   flex-flow: column;
+
+}
+.Semester2{
+    color: aquamarine;
+    background-color: darkslategray;
+    
+   text-decoration:  none;
+}
+
+.Semester2 a{
+    text-decoration: none;
+    font-size: xx-large;
+  }
+  .Semester2 li{
+      margin-top: 4%;
+  }
+  .Semester2 ul{
+  
+     text-decoration-style: none;
+  }
+
+.Semester3{
+color: aquamarine;
+background-color: darkslategray;
+
+text-decoration:  none;
+}
+.Semester3 a{
+    text-decoration: none;
+    font-size: xx-large;
+  }
+  .Semester3 li{
+      margin-top: 4%;
+  }
+  .Semester3 ul{
+  
+     text-decoration-style: none;
+  }
+.Semester4{
+    color: aquamarine;
+    background-color: darkslategray;
+}
+
+.Semester4 a{
+  text-decoration: none;
+  font-size: xx-large;
+}
+.Semester4 li{
+    margin-top: 4%;
+}
+.Semester4 ul{
+
+   text-decoration-style: none;
+}
+

@@ -1,0 +1,23 @@
+.SMaindiv h2{
+    color: cadetblue;
+    
+}
+
+.SMaindiv h3{
+    color: rgb(27, 189, 135);
+}
+.SMaindiv a {
+    text-decoration: none;
+    font-size: 35px;
+    
+    color: rgb(27, 189, 135);
+}
+
+.SMaindiv h1{
+    color: white;
+}
+
+.SpaceNeeded{
+    margin: 5%;
+}
+
