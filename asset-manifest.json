@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6b56907.css",
-    "main.js": "/static/js/main.2af49323.js",
+    "main.css": "/static/css/main.7af7d2cf.css",
+    "main.js": "/static/js/main.909550fd.js",
     "static/js/787.9569f6a2.chunk.js": "/static/js/787.9569f6a2.chunk.js",
     "static/media/SL_101619_24150_55.jpg": "/static/media/SL_101619_24150_55.d0c005cdad3e1cb17eb9.jpg",
     "static/media/Dreamersteve.png": "/static/media/Dreamersteve.1ffa719227ca678c510a.png",
@@ -12,12 +12,12 @@
     "static/media/WebsiteGameIMade.png": "/static/media/WebsiteGameIMade.eee2052b690c762dbdb1.png",
     "static/media/Cloudpeak.png": "/static/media/Cloudpeak.b1cc1104f1efb800e8dc.png",
     "index.html": "/index.html",
-    "main.a6b56907.css.map": "/static/css/main.a6b56907.css.map",
-    "main.2af49323.js.map": "/static/js/main.2af49323.js.map",
+    "main.7af7d2cf.css.map": "/static/css/main.7af7d2cf.css.map",
+    "main.909550fd.js.map": "/static/js/main.909550fd.js.map",
     "787.9569f6a2.chunk.js.map": "/static/js/787.9569f6a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6b56907.css",
-    "static/js/main.2af49323.js"
+    "static/css/main.7af7d2cf.css",
+    "static/js/main.909550fd.js"
   ]
 }
