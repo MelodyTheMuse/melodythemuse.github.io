@@ -10,19 +10,24 @@
     },
     {
         "name": "Second website on javaScript with React,Java and CSS",
-        "description": "This is my second website on javaScript with React,Java and CSS. I created this website to showcase my skills in javaScript, React, Java and CSS. I learned a lot about javaScript, React, Java and CSS from this project. I also learned a lot about web design and web development from this project.",
-        "link": ""
+        "description": "This is my second website on javaScript with React,Java and CSS. I created this website to showcase my skills in javaScript, React, Java and CSS. I learned a lot about javaScript, React, Java and CSS from this project. The website's design is not the best as it is pretty underdeveloped. However the main focus of this project was to work with JS and Java to create a functional website. I chose to create a game within JS as a fun venture. The game is based on flappy bird.",
+        "link": "",
+        "video": "videos/flappy.mp4",
+        "images": [
+            "images/flappysite.png",
+            "images/flappysite2.png"
+        ]
     },
     {
         "name": "Dreamer steve",
         "description": "First group project for Game Design course",
         "link": "https://github.com/Dreamer-steve-Project/Dreamer-Steve"
-    }, 
+    },
     {
         "name": "Cloud Peak",
         "description": "This is a game I helped create with a team of 2, we created this game for the course game design. The project was aimed to create our own game out of a set of of restrictions. From that we created the game called Cloud Peak, it is a dungeon crawler rouge lite game. In a similair vain to the game Darkest Dungeon. The game was created with Unity and C#. This was the first game I created, I learned a tremendouss amount from this project. I learned a lot about game design and game development from this project.",
         "link": "https://github.com/BenDBrown/Cloudpeak-YOG"
-    }, 
+    },
     {
         "name": "Knife crime for industry project",
         "description": "This project was a collaboration between us and a Fontys partner for the course of Game Design. We created the game with a group of 12 where I lead the level design team. This team consisted of 3 level designers. The game was created in Unity with c#. The game is a narrative game that follows the story of a young adult who is a purpetrator of a knife crime. The game was created in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project.",
@@ -52,5 +57,4 @@
         "video": "videos/Trailer_Voidscape_RV2.mp4",
         "link": "https://github.com/BenDBrown/VoidScape"
     }
-    
 ]
