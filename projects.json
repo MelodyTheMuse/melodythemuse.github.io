@@ -3,8 +3,8 @@
         "id": "1",
         "name": "First website on HTML and CSS",
         "images": [
-            "images/DestinySite.png",
-            "images/DestinySite2.png"
+            "./images/DestinySite.png",
+            "./images/DestinySite2.png"
         ],
         "semester": "Spring 2021",
         "description": "This is my first website on HTML and CSS. I created this website to showcase my skills in HTML and CSS. I learned a lot about HTML and CSS from this project.",
@@ -29,10 +29,10 @@
         "fullDescription": "This is my second website on javaScript with React,Java and CSS. I created this website to showcase my skills in javaScript, React, Java and CSS. I learned a lot about javaScript, React, Java and CSS from this project. The website's design is not the best as it is pretty underdeveloped. However the main focus of this project was to work with JS and Java to create a functional website. I chose to create a game within JS as a fun venture. The game is based on flappy bird.",
         "link": "",
         "semester": "Fall 2022",
-        "video": "videos/flappy.mp4",
+        "video": "./videos/flappy.mp4",
         "images": [
-            "images/flappysite.png",
-            "images/flappysite2.png"
+            "./images/flappysite.png",
+            "./images/flappysite2.png"
         ],
         "technologies": [
             "html",
@@ -114,9 +114,9 @@
         "description": "This is a game I helped create with a team of 4 other people. I was responsible for a few features of the game. Namely the AI, Boost mechanic, enemy outpost level section, interactables system and the comet that launches at the player.",
         "fullDescription": "This is a game I helped create with a team of 4 other people. I was responsible for a few features of the game. Namely the AI, Boost mechanic, enemy outpost level section, interactables system and the comet that launches at the player. I also helped with the level design and the overall game design. The game was created in Godot with a mix of C# and GDscript. We were aided by a intern of Sint Lucas who created a lot of the art in the game. The game took shape in 20 weeks, the version show below in the trailer is made in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project. The team I worked with created a studio that is called RedByte Studios, where we plan to create more games in the future.",
         "images": [
-            "images/Voidscape.png"
+            "./images/Voidscape.png"
         ],
-        "video": "videos/Trailer_Voidscape_RV2.mp4",
+        "video": "./videos/Trailer_Voidscape_RV2.mp4",
         "link": "https://github.com/BenDBrown/VoidScape",
         "semester": "Fall 2024",
         "technologies": [],

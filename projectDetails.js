@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    fetch("projects.json")
+    fetch("./projects.json")
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');

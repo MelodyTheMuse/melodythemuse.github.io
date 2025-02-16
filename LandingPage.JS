@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const projectList = document.getElementById("project-list");
 	projectList.innerHTML = '<div class="loading">Loading projects...</div>';
 
-	fetch("projects.json")
+	fetch("./projects.json")
 		.then(response => {
 			if (!response.ok) {
 				throw new Error('Network response was not ok');
