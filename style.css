@@ -12,34 +12,105 @@ body {
     padding: 0;
     background-color: var(--background-color);
 }
+
 header {
     background: var(--primary-color);
     color: var(--white);
     padding: 1rem 0;
     text-align: center;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
 }
+
 nav ul li {
     display: inline;
     margin: 0 15px;
 }
+
 nav a {
     color: var(--white);
     text-decoration: none;
     transition: color 0.3s ease;
 }
+
 nav a:hover {
     color: #ddd;
 }
+
 section {
     padding: 2rem;
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
 }
+
+#about .about-text,
+.project-content p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#about ul,
+.project-features ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#about li,
+.project-features li {
+    background: var(--white);
+    padding: 12px 24px;
+    border-radius: 25px;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+#about li:hover,
+.project-features li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+#about li.game-engine {
+    background: #4CAF50;
+    color: white;
+}
+
+#about li.programming {
+    background: #2196F3;
+    color: white;
+}
+
+#about li.OS {
+    background: #555;
+    color: white;
+}
+
+#about li.Editors {
+    background: #ff0000;
+    color: white;
+}
+
+#about li.game-engine:hover,
+#about li.programming:hover,
+#about li.OS:hover,
+#about li.Editors:hover {
+    opacity: 0.9;
+    transform: translateY(-3px);
+}
+
 .project {
     background: var(--white);
     padding: 20px;
@@ -50,15 +121,18 @@ section {
     text-align: center;
     transition: transform 0.3s ease;
 }
+
 .project:hover {
     transform: translateY(-5px);
 }
+
 .project-media {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
 }
+
 .project-content a,
 .button {
     display: inline-block;
@@ -70,27 +144,31 @@ section {
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
+
 .project-content a:hover,
 .button:hover {
     background: var(--primary-hover);
 }
+
 .loading {
     padding: 2rem;
     color: var(--primary-color);
 }
+
 .error {
     padding: 2rem;
     color: #ff0000;
 }
+
 @media (max-width: 768px) {
     .project {
         width: 95%;
     }
-    
+
     section {
         padding: 1rem;
     }
-    
+
     nav ul li {
         display: block;
         margin: 10px 0;
@@ -135,4 +213,90 @@ section {
 
 .carousel-btn.next {
     right: 10px;
+}
+
+.semester-section {
+    margin-bottom: 2rem;
+}
+
+.semester-title {
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #ccc;
+}
+
+.semester-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.project-full {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.back-button {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+.project-media-gallery {
+    margin-bottom: 2rem;
+}
+
+.project-info {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.project-metadata {
+    margin-bottom: 1.5rem;
+}
+
+.semester {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.technologies {
+    margin-top: 1rem;
+}
+
+.tech-tag {
+    display: inline-block;
+    background: #f0f0f0;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    margin: 0.2rem;
+    font-size: 0.9rem;
+}
+
+.project-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.project-features {
+    margin-bottom: 2rem;
+}
+
+.project-features li:before {
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
 }

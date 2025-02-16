@@ -1,60 +1,125 @@
 [
     {
+        "id": "1",
         "name": "First website on HTML and CSS",
         "images": [
             "images/DestinySite.png",
             "images/DestinySite2.png"
         ],
-        "description": "This is my first website on HTML and CSS. I created this website to showcase my skills in HTML and CSS. I learned a lot about HTML and CSS from this project. I also learned a lot about web design and web development from this project.",
-        "link": ""
+        "semester": "Spring 2021",
+        "description": "This is my first website on HTML and CSS. I created this website to showcase my skills in HTML and CSS. I learned a lot about HTML and CSS from this project.",
+        "fullDescription": "This is my first website on HTML and CSS. I created this website to showcase my skills in HTML and CSS. I learned a lot about HTML and CSS from this project. I also learned a lot about web design and web development from this project.",
+        "link": "",
+        "technologies": [
+            "html",
+            "css",
+            "Razor Pages",
+            "SQL Database"
+        ],
+        "features": [
+            "Dynamic Content",
+            "Responsive Design",
+            "Database Integration"
+        ]
     },
     {
+        "id": "2",
         "name": "Second website on javaScript with React,Java and CSS",
-        "description": "This is my second website on javaScript with React,Java and CSS. I created this website to showcase my skills in javaScript, React, Java and CSS. I learned a lot about javaScript, React, Java and CSS from this project. The website's design is not the best as it is pretty underdeveloped. However the main focus of this project was to work with JS and Java to create a functional website. I chose to create a game within JS as a fun venture. The game is based on flappy bird.",
+        "description": "This is my second website on javaScript with React,Java and CSS. I created this website to showcase my skills in javaScript, React, Java and CSS.",
+        "fullDescription": "This is my second website on javaScript with React,Java and CSS. I created this website to showcase my skills in javaScript, React, Java and CSS. I learned a lot about javaScript, React, Java and CSS from this project. The website's design is not the best as it is pretty underdeveloped. However the main focus of this project was to work with JS and Java to create a functional website. I chose to create a game within JS as a fun venture. The game is based on flappy bird.",
         "link": "",
+        "semester": "Fall 2022",
         "video": "videos/flappy.mp4",
         "images": [
             "images/flappysite.png",
             "images/flappysite2.png"
+        ],
+        "technologies": [
+            "html",
+            "css",
+            "React JS",
+            "Java",
+            "SQL Database"
+        ],
+        "features": [
+            "Dynamic Content",
+            "Responsive Design",
+            "Database Integration",
+            "Game"
         ]
     },
     {
+        "id": "3",
         "name": "Dreamer steve",
-        "description": "First group project for Game Design course",
-        "link": "https://github.com/Dreamer-steve-Project/Dreamer-Steve"
+        "description": "This is the first group project for Game Design course. The project was aimed to create a game out of a set of of restrictions.",
+        "fullDescription": "This is the first group project for Game Design course. The project was aimed to create a game out of a set of of restrictions. From that we created the game called Dreamer Steve, it is a 3D platformer game with a grapple hook mechanic. The game was created with Unity and C#. This was the first project I worked on in Unity, I learned a lot from this project. I learned a lot about game design and game development from this project.",
+        "semester": "Spring 2023",
+        "link": "https://github.com/Dreamer-steve-Project/Dreamer-Steve",
+        "technologies": [],
+        "features": []
     },
     {
+        "id": "4",
         "name": "Cloud Peak",
-        "description": "This is a game I helped create with a team of 2, we created this game for the course game design. The project was aimed to create our own game out of a set of of restrictions. From that we created the game called Cloud Peak, it is a dungeon crawler rouge lite game. In a similair vain to the game Darkest Dungeon. The game was created with Unity and C#. This was the first game I created, I learned a tremendouss amount from this project. I learned a lot about game design and game development from this project.",
-        "link": "https://github.com/BenDBrown/Cloudpeak-YOG"
+        "description": "This is a game I helped create with a team of 2, we created this game for the course game design.",
+        "fullDescription": "This is a game I helped create with a team of 2, we created this game for the course game design. The project was aimed to create our own game out of a set of of restrictions. From that we created the game called Cloud Peak, it is a dungeon crawler rouge lite game. In a similair vain to the game Darkest Dungeon. The game was created with Unity and C#. This was the first game I created, I learned a tremendouss amount from this project. I learned a lot about game design and game development from this project.",
+        "semester": "Spring 2023",
+        "link": "https://github.com/BenDBrown/Cloudpeak-YOG",
+        "technologies": [],
+        "features": []
     },
     {
+        "id": "5",
         "name": "Knife crime for industry project",
-        "description": "This project was a collaboration between us and a Fontys partner for the course of Game Design. We created the game with a group of 12 where I lead the level design team. This team consisted of 3 level designers. The game was created in Unity with c#. The game is a narrative game that follows the story of a young adult who is a purpetrator of a knife crime. The game was created in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project.",
-        "link": "https://github.com/davey2206/Knife_Crime"
+        "description": "This project was a collaboration between us and a Fontys partner for the course of Game Design.",
+        "fullDescription": "This project was a collaboration between us and a Fontys partner for the course of Game Design. We created the game with a group of 12 where I lead the level design team. This team consisted of 3 level designers. The game was created in Unity with c#. The game is a narrative game that follows the story of a young adult who is a purpetrator of a knife crime. The game was created in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project.",
+        "semester": "Spring 2023",
+        "link": "https://github.com/davey2206/Knife_Crime",
+        "technologies": [],
+        "features": []
     },
     {
+        "id": "6",
         "name": "Help roby for PIT Tilburg",
-        "description": "This project was created for my first attempt on the internship, I together with a fellow student of Fontys tried to tackle a problem that a teacher at PIT faced. I did not see the end of this project due to personal reasons. When I was working on the project I mostly created the Idea behind the game and the level design. I worked on creating an AI that would be able to reconize lego structures that would be the solution to the puzzle. It was a fun project to work on and I learned a lot from it.",
-        "link": "https://github.com/MelodyTheMuse/HelpRobyPIT"
+        "description": "This project was created for my first attempt on the internship, I together with a fellow student of Fontys tried to tackle a problem that a teacher at PIT faced.",
+        "fullDescription": "This project was created for my first attempt on the internship, I together with a fellow student of Fontys tried to tackle a problem that a teacher at PIT faced. I did not see the end of this project due to personal reasons. When I was working on the project I mostly created the Idea behind the game and the level design. I worked on creating an AI that would be able to reconize lego structures that would be the solution to the puzzle. It was a fun project to work on and I learned a lot from it.",
+        "semester": "Fall 2023",
+        "link": "https://github.com/MelodyTheMuse/HelpRobyPIT",
+        "technologies": [],
+        "features": []
     },
     {
+        "id": "7",
         "name": "Escape Room VR Project for Practoraat Interactieve Technologie (A.K.A PIT) Tilburg",
-        "description": "This project was a collaboration between Fontys University of Applied Sciences and the Practoraat Interactieve Technologie (A.K.A PIT) Tilburg. The goal of the project was to create a prototype of a game that would be used in a classroom setting. The game was created in Unity VR with c#. I was responsible for the overall game design and the level design. The game was created in 20 weeks. The game is in still extremely early stages of development and is not playable yet. It became a VR escape room type puzzle game. Where the player solved puzzles to strengthen their skills in the field of Schoonheids Specialiste. To reconize certain skin conditions and be able to link them to a discription. I am proud of the result and I am looking forward to see the game come to life.",
-        "link": "https://github.com/MelodyTheMuse/StudentsProject"
+        "description": "This project was a collaboration between Fontys University of Applied Sciences and the Practoraat Interactieve Technologie (A.K.A PIT) Tilburg.",
+        "fullDescription": "This project was a collaboration between Fontys University of Applied Sciences and the Practoraat Interactieve Technologie (A.K.A PIT) Tilburg. The goal of the project was to create a prototype of a game that would be used in a classroom setting. The game was created in Unity VR with c#. I was responsible for the overall game design and the level design. The game was created in 20 weeks. The game is in still extremely early stages of development and is not playable yet. It became a VR escape room type puzzle game. Where the player solved puzzles to strengthen their skills in the field of Schoonheids Specialiste. To reconize certain skin conditions and be able to link them to a discription. I am proud of the result and I am looking forward to see the game come to life.",
+        "semester": "Spring 2024",
+        "link": "https://github.com/MelodyTheMuse/StudentsProject",
+        "technologies": [],
+        "features": []
     },
     {
+        "id": "8",
         "name": "Music System for Godot",
         "description": "Music pack  and system for Godot, still under development",
-        "link": "https://github.com/MelodyTheMuse/MusicPackSystemDeepDive"
+        "fullDescription": "Music pack  and system for Godot, still under development",
+        "link": "https://github.com/MelodyTheMuse/MusicPackSystemDeepDive",
+        "semester": "Fall 2024",
+        "technologies": [],
+        "features": []
     },
     {
+        "id": "9",
         "name": "Voidscape",
-        "description": "This is a game I helped create with a team of 4 other people. I was responsible for a few features of the game. Namely the AI, Boost mechanic, enemy outpost level section, interactables system and the comet that launches at the player. I also helped with the level design and the overall game design. The game was created in Godot with a mix of C# and GDscript. We were aided by a intern of Sint Lucas who created a lot of the art in the game. The game took shape in 20 weeks, the version show below in the trailer is made in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project. The team I worked with created a studio that is called RedByte Studios, where we plan to create more games in the future.",
+        "description": "This is a game I helped create with a team of 4 other people. I was responsible for a few features of the game. Namely the AI, Boost mechanic, enemy outpost level section, interactables system and the comet that launches at the player.",
+        "fullDescription": "This is a game I helped create with a team of 4 other people. I was responsible for a few features of the game. Namely the AI, Boost mechanic, enemy outpost level section, interactables system and the comet that launches at the player. I also helped with the level design and the overall game design. The game was created in Godot with a mix of C# and GDscript. We were aided by a intern of Sint Lucas who created a lot of the art in the game. The game took shape in 20 weeks, the version show below in the trailer is made in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project. The team I worked with created a studio that is called RedByte Studios, where we plan to create more games in the future.",
         "images": [
             "images/Voidscape.png"
         ],
         "video": "videos/Trailer_Voidscape_RV2.mp4",
-        "link": "https://github.com/BenDBrown/VoidScape"
+        "link": "https://github.com/BenDBrown/VoidScape",
+        "semester": "Fall 2024",
+        "technologies": [],
+        "features": []
     }
 ]

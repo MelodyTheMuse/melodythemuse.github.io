@@ -12,25 +12,71 @@ document.addEventListener("DOMContentLoaded", () => {
 		.then(projects => {
 			projectList.innerHTML = ""; // Clear loading message
 
+			// Group projects by semester
+			const projectsBySemester = {};
 			projects.forEach(project => {
-				if (!project.name || !project.description) {
+				if (!project.name || !project.description || !project.semester) {
 					console.warn('Project missing required fields:', project);
 					return;
 				}
 
-				const projectDiv = document.createElement("div");
-				projectDiv.classList.add("project");
-				projectDiv.innerHTML = `
-                    <div class="project-content">
-                        ${createMediaContent(project)}
-                        <h3>${project.name}</h3>
-                        <p>${project.description}</p>
-                        ${project.link ? `<a href="${project.link}" target="_blank">View Project</a>` : ''}
-                    </div>
-                `;
-
-				projectList.appendChild(projectDiv);
+				if (!projectsBySemester[project.semester]) {
+					projectsBySemester[project.semester] = [];
+				}
+				projectsBySemester[project.semester].push(project);
 			});
+
+			// Sort semesters chronologically (oldest to newest)
+			const sortedSemesters = Object.keys(projectsBySemester).sort((a, b) => {
+				const yearA = parseInt(a.split(' ')[1]);
+				const yearB = parseInt(b.split(' ')[1]);
+				const seasonA = a.split(' ')[0];
+				const seasonB = b.split(' ')[0];
+
+				// First compare years
+				if (yearA !== yearB) {
+					return yearA - yearB;
+				}
+
+				// If years are equal, compare seasons
+				const seasonOrder = {
+					'Spring': 0,
+					'Summer': 1,
+					'Fall': 2,
+					'Winter': 3
+				};
+
+				return seasonOrder[seasonA] - seasonOrder[seasonB];
+			});
+
+			// Create sections for each semester
+			sortedSemesters.forEach(semester => {
+				const semesterSection = document.createElement('div');
+				semesterSection.classList.add('semester-section');
+				semesterSection.innerHTML = `<h2 class="semester-title">${semester}</h2>`;
+
+				const semesterProjects = document.createElement('div');
+				semesterProjects.classList.add('semester-projects');
+
+				projectsBySemester[semester].forEach(project => {
+					const projectDiv = document.createElement("div");
+					projectDiv.classList.add("project");
+					projectDiv.innerHTML = `
+						<div class="project-content">
+							${createMediaContent(project)}
+							<h3>${project.name}</h3>
+							<p>${project.description}</p>
+							<a href="project.html?id=${encodeURIComponent(project.id)}" class="view-project">View Details</a>
+							${project.link ? `<a href="${project.link}" target="_blank" class="external-link">Live Demo</a>` : ''}
+						</div>
+					`;
+					semesterProjects.appendChild(projectDiv);
+				});
+
+				semesterSection.appendChild(semesterProjects);
+				projectList.appendChild(semesterSection);
+			});
+
 			initializeCarousels(); // Initialize after adding all projects
 		})
 		.catch(error => {
@@ -66,10 +112,6 @@ function createMediaContent(project) {
 		}
 	}
 
-	// Handle video if present
-	if (project.video) {
-		mediaContent += `<video src="${project.video}" autoplay loop muted class="project-media"></video>`;
-	}
 	return mediaContent;
 }
 
