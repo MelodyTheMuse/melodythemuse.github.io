@@ -6,7 +6,7 @@
             "./images/DestinySite.png",
             "./images/DestinySite2.png"
         ],
-        "semester": "Spring 2021",
+        "semester": "Semester 2",
         "description": "This is my first website on HTML and CSS. I created this website to showcase my skills in HTML and CSS. I learned a lot about HTML and CSS from this project.",
         "fullDescription": "This is my first website on HTML and CSS. I created this website to showcase my skills in HTML and CSS. I learned a lot about HTML and CSS from this project. I also learned a lot about web design and web development from this project.",
         "link": "",
@@ -20,7 +20,9 @@
             "Dynamic Content",
             "Responsive Design",
             "Database Integration"
-        ]
+        ],
+        "category": "Software Engineer",
+        "company": "Fontys"
     },
     {
         "id": "2",
@@ -28,7 +30,7 @@
         "description": "This is my second website on javaScript with React,Java and CSS. I created this website to showcase my skills in javaScript, React, Java and CSS.",
         "fullDescription": "This is my second website on javaScript with React,Java and CSS. I created this website to showcase my skills in javaScript, React, Java and CSS. I learned a lot about javaScript, React, Java and CSS from this project. The website's design is not the best as it is pretty underdeveloped. However the main focus of this project was to work with JS and Java to create a functional website. I chose to create a game within JS as a fun venture. The game is based on flappy bird.",
         "link": "",
-        "semester": "Fall 2022",
+        "semester": "Semester 3",
         "video": "./videos/flappy.mp4",
         "images": [
             "./images/flappysite.png",
@@ -46,57 +48,69 @@
             "Responsive Design",
             "Database Integration",
             "Game"
-        ]
+        ],
+        "category": "Software Development",
+        "company": "Fontys"
     },
     {
         "id": "3",
         "name": "Dreamer steve",
         "description": "This is the first group project for Game Design course. The project was aimed to create a game out of a set of of restrictions.",
         "fullDescription": "This is the first group project for Game Design course. The project was aimed to create a game out of a set of of restrictions. From that we created the game called Dreamer Steve, it is a 3D platformer game with a grapple hook mechanic. The game was created with Unity and C#. This was the first project I worked on in Unity, I learned a lot from this project. I learned a lot about game design and game development from this project.",
-        "semester": "Spring 2023",
+        "semester": "Semester 4",
         "link": "https://github.com/Dreamer-steve-Project/Dreamer-Steve",
         "technologies": [],
-        "features": []
+        "features": [],
+        "category": "Game Design",
+        "company": "Fontys"
     },
     {
         "id": "4",
         "name": "Cloud Peak",
         "description": "This is a game I helped create with a team of 2, we created this game for the course game design.",
         "fullDescription": "This is a game I helped create with a team of 2, we created this game for the course game design. The project was aimed to create our own game out of a set of of restrictions. From that we created the game called Cloud Peak, it is a dungeon crawler rouge lite game. In a similair vain to the game Darkest Dungeon. The game was created with Unity and C#. This was the first game I created, I learned a tremendouss amount from this project. I learned a lot about game design and game development from this project.",
-        "semester": "Spring 2023",
+        "semester": "Semester 4",
         "link": "https://github.com/BenDBrown/Cloudpeak-YOG",
         "technologies": [],
-        "features": []
+        "features": [],
+        "category": "Game Design",
+        "company": "Fontys"
     },
     {
         "id": "5",
         "name": "Knife crime for industry project",
         "description": "This project was a collaboration between us and a Fontys partner for the course of Game Design.",
         "fullDescription": "This project was a collaboration between us and a Fontys partner for the course of Game Design. We created the game with a group of 12 where I lead the level design team. This team consisted of 3 level designers. The game was created in Unity with c#. The game is a narrative game that follows the story of a young adult who is a purpetrator of a knife crime. The game was created in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project.",
-        "semester": "Spring 2023",
+        "semester": "Semester 4",
         "link": "https://github.com/davey2206/Knife_Crime",
         "technologies": [],
-        "features": []
+        "features": [],
+        "category": "Game Design",
+        "company": "Fontys"
     },
     {
         "id": "6",
-        "name": "Help roby for PIT Tilburg",
+        "name": "Help roby",
         "description": "This project was created for my first attempt on the internship, I together with a fellow student of Fontys tried to tackle a problem that a teacher at PIT faced.",
         "fullDescription": "This project was created for my first attempt on the internship, I together with a fellow student of Fontys tried to tackle a problem that a teacher at PIT faced. I did not see the end of this project due to personal reasons. When I was working on the project I mostly created the Idea behind the game and the level design. I worked on creating an AI that would be able to reconize lego structures that would be the solution to the puzzle. It was a fun project to work on and I learned a lot from it.",
-        "semester": "Fall 2023",
+        "semester": "Semester 5",
         "link": "https://github.com/MelodyTheMuse/HelpRobyPIT",
         "technologies": [],
-        "features": []
+        "features": [],
+        "category": "Internship",
+        "company": "PIT Tilburg"
     },
     {
         "id": "7",
-        "name": "Escape Room VR Project for Practoraat Interactieve Technologie (A.K.A PIT) Tilburg",
+        "name": "Escape Room VR Project",
         "description": "This project was a collaboration between Fontys University of Applied Sciences and the Practoraat Interactieve Technologie (A.K.A PIT) Tilburg.",
         "fullDescription": "This project was a collaboration between Fontys University of Applied Sciences and the Practoraat Interactieve Technologie (A.K.A PIT) Tilburg. The goal of the project was to create a prototype of a game that would be used in a classroom setting. The game was created in Unity VR with c#. I was responsible for the overall game design and the level design. The game was created in 20 weeks. The game is in still extremely early stages of development and is not playable yet. It became a VR escape room type puzzle game. Where the player solved puzzles to strengthen their skills in the field of Schoonheids Specialiste. To reconize certain skin conditions and be able to link them to a discription. I am proud of the result and I am looking forward to see the game come to life.",
-        "semester": "Spring 2024",
+        "semester": "Semester 5",
         "link": "https://github.com/MelodyTheMuse/StudentsProject",
         "technologies": [],
-        "features": []
+        "features": [],
+        "category": "Internship",
+        "company": "PIT Tilburg"
     },
     {
         "id": "8",
@@ -104,9 +118,11 @@
         "description": "Music pack  and system for Godot, still under development",
         "fullDescription": "Music pack  and system for Godot, still under development",
         "link": "https://github.com/MelodyTheMuse/MusicPackSystemDeepDive",
-        "semester": "Fall 2024",
+        "semester": "Semester 6",
         "technologies": [],
-        "features": []
+        "features": [],
+        "category": "Game Design Advanced",
+        "company": "Fontys"
     },
     {
         "id": "9",
@@ -118,8 +134,10 @@
         ],
         "video": "./videos/Trailer_Voidscape_RV2.mp4",
         "link": "https://github.com/BenDBrown/VoidScape",
-        "semester": "Fall 2024",
+        "semester": "Semester 6",
         "technologies": [],
-        "features": []
+        "features": [],
+        "category": "Game Design Advanced",
+        "company": "Fontys"
     }
 ]

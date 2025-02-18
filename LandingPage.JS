@@ -26,34 +26,21 @@ document.addEventListener("DOMContentLoaded", () => {
 				projectsBySemester[project.semester].push(project);
 			});
 
-			// Sort semesters chronologically (oldest to newest)
+			// Sort semesters numerically
 			const sortedSemesters = Object.keys(projectsBySemester).sort((a, b) => {
-				const yearA = parseInt(a.split(' ')[1]);
-				const yearB = parseInt(b.split(' ')[1]);
-				const seasonA = a.split(' ')[0];
-				const seasonB = b.split(' ')[0];
-
-				// First compare years
-				if (yearA !== yearB) {
-					return yearA - yearB;
-				}
-
-				// If years are equal, compare seasons
-				const seasonOrder = {
-					'Spring': 0,
-					'Summer': 1,
-					'Fall': 2,
-					'Winter': 3
-				};
-
-				return seasonOrder[seasonA] - seasonOrder[seasonB];
+				// Extract semester numbers
+				const semesterA = parseInt(a.split(' ')[1]);
+				const semesterB = parseInt(b.split(' ')[1]);
+				return semesterA - semesterB;
 			});
 
 			// Create sections for each semester
 			sortedSemesters.forEach(semester => {
 				const semesterSection = document.createElement('div');
 				semesterSection.classList.add('semester-section');
-				semesterSection.innerHTML = `<h2 class="semester-title">${semester}</h2>`;
+
+				// Format semester display (e.g., "Semester 4")
+				semesterSection.innerHTML = `<h2 class="semester-title">Semester ${semester.split(' ')[1]}</h2>`;
 
 				const semesterProjects = document.createElement('div');
 				semesterProjects.classList.add('semester-projects');
@@ -61,13 +48,28 @@ document.addEventListener("DOMContentLoaded", () => {
 				projectsBySemester[semester].forEach(project => {
 					const projectDiv = document.createElement("div");
 					projectDiv.classList.add("project");
+
+					// Add category class for styling - replace spaces with hyphens
+					if (project.category) {
+						projectDiv.classList.add(`category-${project.category.toLowerCase().replace(/\s+/g, '-')}`);
+					}
+
 					projectDiv.innerHTML = `
 						<div class="project-content">
 							${createMediaContent(project)}
-							<h3>${project.name}</h3>
+							<div class="project-header">
+								<h3>${project.name}</h3>
+								${project.category ? `
+									<span class="project-category ${project.category.toLowerCase().replace(/\s+/g, '-')}">
+										${project.category}
+										${project.category === 'Internship' && project.company ?
+								` - ${project.company}` : ''}
+									</span>
+								` : ''}
+							</div>
 							<p>${project.description}</p>
 							<a href="project.html?id=${encodeURIComponent(project.id)}" class="view-project">View Details</a>
-							${project.link ? `<a href="${project.link}" target="_blank" class="external-link">Live Demo</a>` : ''}
+							${project.link ? `<a href="${project.link}" target="_blank" class="external-link">Project Link</a>` : ''}
 						</div>
 					`;
 					semesterProjects.appendChild(projectDiv);
