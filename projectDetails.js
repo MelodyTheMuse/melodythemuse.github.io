@@ -29,6 +29,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="project-full">
                     <a href="index.html" class="back-button">← Back to Projects</a>
                     <h1>${project.name}</h1>
+                    ${project.category ? `
+                        <div class="project-category-header">
+                            <span class="project-category ${project.category.toLowerCase()}">
+                                ${project.category}
+                                ${project.category === 'Internship' && project.company ?
+                        ` - ${project.company}` : ''}
+                            </span>
+                        </div>
+                    ` : ''}
                     <div class="project-media-gallery">
                         ${createMediaContent(project)}
                     </div>

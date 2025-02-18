@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #333;
-    --primary-hover: #555;
-    --background-color: #f4f4f4;
+    --primary-color: #760278ae;
+    --primary-hover: #e78fe9;
+    --background-color: #c2bbdd;
     --white: #fff;
     --shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -300,3 +300,53 @@ section {
     left: 0;
     color: var(--primary-color);
 }
+
+.project-category {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.project-category:hover {
+    opacity: 0.9;
+}
+
+.project-category .company {
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.project-category.software-engineer {
+    background-color: #2196F3;
+    color: white;
+}
+
+.project-category.software-development {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.project-category.game-design {
+    background-color: #9C27B0;
+    color: white;
+}
+
+.project-category.game-design-advanced {
+    background-color: #673AB7;
+    color: white;
+}
+
+.project-category.internship {
+    background-color: #FF9800;
+    color: white;
+}
+
+.project-category-header {
+    margin: -10px 0 20px 0;
+}
+
+/* You can add more category styles as needed */
