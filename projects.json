@@ -85,8 +85,8 @@
         "id": "CloudPeak",
         "name": "Cloud Peak",
 		"images": [
-			"./images/CloudPeak.png",
-			"./images/CloudPeak2.png",
+			"./images/Cloudpeak.png",
+			"./images/Cloudpeak2.png",
 			"./images/cloudpeakmap.gif"
 		],
 		"video": "videos/cloudpeak.mp4",
