@@ -85,18 +85,9 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 });
 
-function getBasePath() {
-    // Check if we're on GitHub Pages
-    if (window.location.hostname.includes('github.io')) {
-        // Replace 'YourUsername' and 'YourRepo' with your actual GitHub username and repository name
-        return '/Portfolio';
-    }
-    return '';
-}
-
+// Reuse the createMediaContent function from LandingPage.JS
 function createMediaContent(project) {
     let mediaContent = '';
-    const basePath = getBasePath();
 
     // Handle videos first
     if (project.video || (project.videos && project.videos.length > 0)) {
@@ -105,20 +96,20 @@ function createMediaContent(project) {
             <div class="video-grid">
                 ${videos.map(video => `
                     <video controls class="project-media">
-                        <source src="${basePath}${video}" type="video/mp4">
+                        <source src="${video}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 `).join('')}
             </div>`;
     }
 
-    // Handle images
+    // Handle images in a masonry layout
     if (project.images && Array.isArray(project.images)) {
         mediaContent += `
             <div class="masonry-grid">
-                ${project.images.map(image => `
+                ${project.images.map(image => ` 
                     <div class="masonry-item">
-                        <img src="${basePath}${image}" alt="${project.name}" loading="lazy">
+                        <img src="${image}" alt="${project.name}" loading="lazy">
                     </div>
                 `).join('')}
             </div>`;
