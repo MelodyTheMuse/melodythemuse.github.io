@@ -3,8 +3,8 @@
         "id": "DestinySite",
         "name": "First website on HTML and CSS",
         "images": [
-            "images/DestinySite.png",
-            "images/DestinySite2.png"
+            "./images/DestinySite.png",
+            "./images/DestinySite2.png"
         ],
         "semester": "Semester 2",
         "description": "This is my first website on HTML, CSS, Razor pages with C# backend. This was the first real project for semester 2 and for the study as a whole.",
@@ -35,8 +35,8 @@
         "semester": "Semester 3",
         "video": "videos/flappy.mp4",
         "images": [
-            "images/flappysite.png",
-            "images/flappysite2.png"
+            "./images/flappysite.png",
+            "./images/flappysite2.png"
         ],
         "technologies": [
             "html",
@@ -204,7 +204,7 @@
         "description": "This is a game I helped create with a team of 4 other people. I was responsible for a few features of the game. Namely the AI, Boost mechanic, enemy outpost level section, interactables system and the comet that launches at the player.",
         "fullDescription": "This is a game I helped create with a team of 4 other people. I was responsible for a few features of the game. Namely the AI, Boost mechanic, enemy outpost level section, interactables system and the comet that launches at the player. I also helped with the level design and the overall game design. The game was created in Godot with a mix of C# and GDscript. We were aided by a intern of Sint Lucas who created a lot of the art in the game. The game took shape in 20 weeks, the version show below in the trailer is made in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project. The team I worked with created a studio that is called RedByte Studios, where we plan to create more games in the future.",
         "images": [
-            "images/Voidscape.png"
+            "./images/Voidscape.png"
         ],
         "video": "./videos/Trailer_Voidscape_RV2.mp4",
         "link": "https://github.com/BenDBrown/VoidScape",
