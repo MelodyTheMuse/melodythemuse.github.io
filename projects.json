@@ -3,8 +3,8 @@
         "id": "DestinySite",
         "name": "First website on HTML and CSS",
         "images": [
-            "./images/DestinySite.png",
-            "./images/DestinySite2.png"
+            "images/DestinySite.png",
+            "images/DestinySite2.png"
         ],
         "semester": "Semester 2",
         "description": "This is my first website on HTML, CSS, Razor pages with C# backend. This was the first real project for semester 2 and for the study as a whole.",
@@ -33,10 +33,10 @@
         "fullDescription": "This is my second website on javaScript with React,Java and CSS. The requirements for this project were more complex. 1. it had to have a Java backend with a JS react frontend. 2. it had to have a SQL Database, that later had to be created by the the backend. 3. Create a CI/CD pipeline for the project. 4. Create a docker container for the project. 5. Make End to End aka E2E tests for the project. 6. Make Unit tests for the project. 7. Add a unique feature to the website. With these requiremeents in mind I chose to create a game within JS as a fun venture. The game is based on flappy bird and is fully made with math on the React. This wasn't a fun project, I had completely underestimated the time and skills it would take to create the game itself, thankfully I could find a good source to build the game from and managed to get what is show above. The rest was a bit more managable and it was all done in time. Docker was something that caused many issues, mainly due to conflicting implementation we were taught with the tests that docker couldn't run. Overall I am happy with the result and learned skills I still use today.",
         "link": "",
         "semester": "Semester 3",
-        "video": "./videos/flappy.mp4",
+        "video": "videos/flappy.mp4",
         "images": [
-            "./images/flappysite.png",
-            "./images/flappysite2.png"
+            "images/flappysite.png",
+            "images/flappysite2.png"
         ],
         "technologies": [
             "html",
@@ -85,11 +85,11 @@
         "id": "CloudPeak",
         "name": "Cloud Peak",
 		"images": [
-			"/images/CloudPeak.png",
-			"/images/CloudPeak2.png",
-			"/images/cloudpeakmap.gif"
+			"images/CloudPeak.png",
+			"images/CloudPeak2.png",
+			"images/cloudpeakmap.gif"
 		],
-		"video": "./videos/cloudpeak.mp4",
+		"video": "videos/cloudpeak.mp4",
         "description": "This game is the individual project that is done in a group of 2, we created a 2d dungeon crawler.",
         "fullDescription": "Like with Dreamer steve, this project had to be small and was restricted to a few genres, we choose 2d dungeon crawler. The game was created with Unity and C#.This project was a lot more difficult than Dreamer steve, mainly because of the genre we had choosen. Because we still didn't have a lot of expereince with the engine and the way documentation is writing for a project like this. I worked on some of the art, though some of it wasn't used due to time. I created the dungeon randomizer to have more dynamic levels. Created the UI for the map as well, and ofcourse helped with designing the mechanics and dynamics. It was a very challenging project and it definitly didn't end up how we had thought it would. .",
         "semester": "Semester 4",
@@ -204,7 +204,7 @@
         "description": "This is a game I helped create with a team of 4 other people. I was responsible for a few features of the game. Namely the AI, Boost mechanic, enemy outpost level section, interactables system and the comet that launches at the player.",
         "fullDescription": "This is a game I helped create with a team of 4 other people. I was responsible for a few features of the game. Namely the AI, Boost mechanic, enemy outpost level section, interactables system and the comet that launches at the player. I also helped with the level design and the overall game design. The game was created in Godot with a mix of C# and GDscript. We were aided by a intern of Sint Lucas who created a lot of the art in the game. The game took shape in 20 weeks, the version show below in the trailer is made in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project. The team I worked with created a studio that is called RedByte Studios, where we plan to create more games in the future.",
         "images": [
-            "./images/Voidscape.png"
+            "images/Voidscape.png"
         ],
         "video": "./videos/Trailer_Voidscape_RV2.mp4",
         "link": "https://github.com/BenDBrown/VoidScape",
