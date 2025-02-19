@@ -1,34 +1,36 @@
 [
     {
-        "id": "1",
+        "id": "DestinySite",
         "name": "First website on HTML and CSS",
         "images": [
             "./images/DestinySite.png",
             "./images/DestinySite2.png"
         ],
         "semester": "Semester 2",
-        "description": "This is my first website on HTML and CSS. I created this website to showcase my skills in HTML and CSS. I learned a lot about HTML and CSS from this project.",
-        "fullDescription": "This is my first website on HTML and CSS. I created this website to showcase my skills in HTML and CSS. I learned a lot about HTML and CSS from this project. I also learned a lot about web design and web development from this project.",
+        "description": "This is my first website on HTML, CSS, Razor pages with C# backend. This was the first real project for semester 2 and for the study as a whole.",
+        "fullDescription": "This is my first website, this was the first real project for semester 2 and for the study as a whole.The requirements for this project were simple, 1. use C# with razor pages and SOLID principles, 2. use SQL database, 3. make a functional website with a database. We weren't focused on the design of a webstie but mostly the backend of it. The backend was created with C# and the frontend was created with Razor pages, HTML and CSS. The Database was created with SQL. we used the SOLID principles to create a functional backend with the database. It was a difficult concept to understand at first but, managed in the end to understand it. I use SOLID still in projects today. ",
         "link": "",
         "technologies": [
             "html",
             "css",
             "Razor Pages",
-            "SQL Database"
+            "SQL Database",
+			"Unit Tests"
         ],
         "features": [
             "Dynamic Content",
             "Responsive Design",
-            "Database Integration"
+            "Database Integration",
+            "SOLID Principles"
         ],
-        "category": "Software Engineer",
+        "category": "Software Development",
         "company": "Fontys"
     },
     {
-        "id": "2",
-        "name": "Second website on javaScript with React,Java and CSS",
-        "description": "This is my second website on javaScript with React,Java and CSS. I created this website to showcase my skills in javaScript, React, Java and CSS.",
-        "fullDescription": "This is my second website on javaScript with React,Java and CSS. I created this website to showcase my skills in javaScript, React, Java and CSS. I learned a lot about javaScript, React, Java and CSS from this project. The website's design is not the best as it is pretty underdeveloped. However the main focus of this project was to work with JS and Java to create a functional website. I chose to create a game within JS as a fun venture. The game is based on flappy bird.",
+        "id": "FlappySite",
+        "name": "Second website in JS and Java",
+        "description": "Second project was created on Java, JavaScript with React, HTML, CSS and SQL.",
+        "fullDescription": "This is my second website on javaScript with React,Java and CSS. The requirements for this project were more complex. 1. it had to have a Java backend with a JS react frontend. 2. it had to have a SQL Database, that later had to be created by the the backend. 3. Create a CI/CD pipeline for the project. 4. Create a docker container for the project. 5. Make End to End aka E2E tests for the project. 6. Make Unit tests for the project. 7. Add a unique feature to the website. With these requiremeents in mind I chose to create a game within JS as a fun venture. The game is based on flappy bird and is fully made with math on the React. This wasn't a fun project, I had completely underestimated the time and skills it would take to create the game itself, thankfully I could find a good source to build the game from and managed to get what is show above. The rest was a bit more managable and it was all done in time. Docker was something that caused many issues, mainly due to conflicting implementation we were taught with the tests that docker couldn't run. Overall I am happy with the result and learned skills I still use today.",
         "link": "",
         "semester": "Semester 3",
         "video": "./videos/flappy.mp4",
@@ -41,7 +43,11 @@
             "css",
             "React JS",
             "Java",
-            "SQL Database"
+            "SQL Database",
+			"Docker",
+			"CI/CD Pipeline",
+			"E2E Tests",
+			"Unit Tests"
         ],
         "features": [
             "Dynamic Content",
@@ -49,71 +55,139 @@
             "Database Integration",
             "Game"
         ],
-        "category": "Software Development",
+        "category": "Full Stack Development",
         "company": "Fontys"
     },
     {
-        "id": "3",
+        "id": "DreamerSteve",
         "name": "Dreamer steve",
-        "description": "This is the first group project for Game Design course. The project was aimed to create a game out of a set of of restrictions.",
-        "fullDescription": "This is the first group project for Game Design course. The project was aimed to create a game out of a set of of restrictions. From that we created the game called Dreamer Steve, it is a 3D platformer game with a grapple hook mechanic. The game was created with Unity and C#. This was the first project I worked on in Unity, I learned a lot from this project. I learned a lot about game design and game development from this project.",
+        "description": "3D platformer game for the start of the Game Design course",
+        "fullDescription": "This was the first project we made for this semester and it being the first had some issues and restrictions. The restrictions were simple, it had to be one of a few genres, we choose platfomer with 3D dimension. It had to be small, couldn't be larger than a few levels. We started with the documentation process and it had a fun twist, we gave our 1 page document to a different group, they had to make a 10 pager out of it for us and we for them. It was intressting to see what they made from our concept and we tried to stick to that design document, however we quickly learned that it wasn't possible. We made a few changes and to keep the game fun additions, like a grapple hook. I helped with multiple aspects of the game, from mechanics to level design. It was a chaotic but fun project to work on, I definitly had a lot of fun and learned a lot from it.",
         "semester": "Semester 4",
         "link": "https://github.com/Dreamer-steve-Project/Dreamer-Steve",
-        "technologies": [],
-        "features": [],
+        "technologies": [
+			"Unity",
+			"Visual Studio",
+			"C#",
+			"Git"
+		],
+        "features": [
+			"Game Design",
+			"Game Development",
+			"Real testing",
+			"Scrum Agile workflow"
+		],
         "category": "Game Design",
-        "company": "Fontys"
+        "company": "Fontys",
+		"images": ["./images/dreamersteve.png"]
     },
     {
-        "id": "4",
+        "id": "CloudPeak",
         "name": "Cloud Peak",
-        "description": "This is a game I helped create with a team of 2, we created this game for the course game design.",
-        "fullDescription": "This is a game I helped create with a team of 2, we created this game for the course game design. The project was aimed to create our own game out of a set of of restrictions. From that we created the game called Cloud Peak, it is a dungeon crawler rouge lite game. In a similair vain to the game Darkest Dungeon. The game was created with Unity and C#. This was the first game I created, I learned a tremendouss amount from this project. I learned a lot about game design and game development from this project.",
+		"images": [
+			"./images/CloudPeak.png",
+			"./images/CloudPeak2.png",
+			"./images/cloudpeakmap.gif"
+		],
+		"video": "./videos/cloudpeak.mp4",
+        "description": "This game is the individual project that is done in a group of 2, we created a 2d dungeon crawler.",
+        "fullDescription": "Like with Dreamer steve, this project had to be small and was restricted to a few genres, we choose 2d dungeon crawler. The game was created with Unity and C#.This project was a lot more difficult than Dreamer steve, mainly because of the genre we had choosen. Because we still didn't have a lot of expereince with the engine and the way documentation is writing for a project like this. I worked on some of the art, though some of it wasn't used due to time. I created the dungeon randomizer to have more dynamic levels. Created the UI for the map as well, and ofcourse helped with designing the mechanics and dynamics. It was a very challenging project and it definitly didn't end up how we had thought it would. .",
         "semester": "Semester 4",
         "link": "https://github.com/BenDBrown/Cloudpeak-YOG",
-        "technologies": [],
-        "features": [],
+        "technologies": [
+			"Unity",
+			"C#",
+			"Git",
+			"Visual Studio"
+		],
+        "features": [
+			"Game Design",
+			"Game Development",
+			"Scrum Agile workflow"
+		],
         "category": "Game Design",
         "company": "Fontys"
     },
     {
-        "id": "5",
-        "name": "Knife crime for industry project",
+        "id": "KnifeCrime",
+        "name": "Knife crime",
         "description": "This project was a collaboration between us and a Fontys partner for the course of Game Design.",
         "fullDescription": "This project was a collaboration between us and a Fontys partner for the course of Game Design. We created the game with a group of 12 where I lead the level design team. This team consisted of 3 level designers. The game was created in Unity with c#. The game is a narrative game that follows the story of a young adult who is a purpetrator of a knife crime. The game was created in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project.",
         "semester": "Semester 4",
+		"images": [
+			"./images/kc1.png",
+			"./images/kc2.png",
+			"./images/kc3.png",
+			"./images/kc4.png"
+		],
+		"videos": ["./videos/kc_trailer.mp4","./videos/fmod.mp4"],
         "link": "https://github.com/davey2206/Knife_Crime",
-        "technologies": [],
-        "features": [],
+        "technologies": [
+			"Unity",
+			"C#",
+			"Git",
+			"Visual Studio",
+			"GPT",
+			"FMOD"
+		],
+        "features": [
+			"Game Design",
+			"Game Development",
+			"Scrum Agile workflow",
+			"Narrative",
+			"Music"
+		],
         "category": "Game Design",
-        "company": "Fontys"
+        "company": "Industry Project Fontys Partner"
     },
     {
-        "id": "6",
+        "id": "HelpRoby",
         "name": "Help roby",
-        "description": "This project was created for my first attempt on the internship, I together with a fellow student of Fontys tried to tackle a problem that a teacher at PIT faced.",
-        "fullDescription": "This project was created for my first attempt on the internship, I together with a fellow student of Fontys tried to tackle a problem that a teacher at PIT faced. I did not see the end of this project due to personal reasons. When I was working on the project I mostly created the Idea behind the game and the level design. I worked on creating an AI that would be able to reconize lego structures that would be the solution to the puzzle. It was a fun project to work on and I learned a lot from it.",
+        "description": "This was my first internship, I tried to create a solution, eventually a  game, for helping rescue children to learn dutch.",
+        "fullDescription": "This project was done for my internship at PIT, I tried with a fellow student to create a solution, eventually a  game, for helping rescue children to learn dutch. I created most of the games concept which is as follows; The game has a robot that one student controls across a room in real life, while the robot in game follows the movement. Others tell this student in dutch, which direction they need to go or are dangers. Some of the dangers/obstacles are not avoidable and have to be overcome by creating a strucutre from lego. They can than scan this scruture and it will appear in game. They will hear the dutch word and the idea is that through doing this they get a connection to the word and would be able to remember it. I did a lot of research on this front and it is true that when children are more physically active it can elevate the learning process. I was responsible for the overall game design, level design and the AI. My fellow stuudent was resposible for the robot and it's interaction to the game and giving me information to use in the AI. It went well and I learned that AI is much more difficult than anticipated. In the end the client was happy with the result and we could see that the students did end up at least interacting more and picking up a little dutch. For me the project was cut short due to personal reasons. I did not see this project through the end sadly. One of the gifs shows a screenshot maker I created to get the image of the website the camera was broadcasting to, because my fellow student coulnd't figure out how to send the information to me.",
         "semester": "Semester 5",
-        "link": "https://github.com/MelodyTheMuse/HelpRobyPIT",
-        "technologies": [],
-        "features": [],
+        "technologies": [
+			"Unity",
+			"C#",
+			"Git",
+			"Visual Studio",
+			"GPT",
+			"Python"
+		],
+        "features": [
+			"Game Design",
+			"Game Development",
+			"AI",
+			"Lego Recognition",
+			"Narrative"
+		],
         "category": "Internship",
-        "company": "PIT Tilburg"
+        "company": "Practoraat Interactieve Technologie (A.K.A PIT) Tilburg"
     },
     {
-        "id": "7",
+        "id": "EscapeRoomVR",
         "name": "Escape Room VR Project",
-        "description": "This project was a collaboration between Fontys University of Applied Sciences and the Practoraat Interactieve Technologie (A.K.A PIT) Tilburg.",
-        "fullDescription": "This project was a collaboration between Fontys University of Applied Sciences and the Practoraat Interactieve Technologie (A.K.A PIT) Tilburg. The goal of the project was to create a prototype of a game that would be used in a classroom setting. The game was created in Unity VR with c#. I was responsible for the overall game design and the level design. The game was created in 20 weeks. The game is in still extremely early stages of development and is not playable yet. It became a VR escape room type puzzle game. Where the player solved puzzles to strengthen their skills in the field of Schoonheids Specialiste. To reconize certain skin conditions and be able to link them to a discription. I am proud of the result and I am looking forward to see the game come to life.",
+        "description": "This project was created to find a solution for the beauty specialist course to make the students more engaged with the material of the course.",
+        "fullDescription": "The project was my second internship also at PIT, as I failed the first. In this project I tried to create a solution for another teacher this time for the beauty specialist course. The goal of the project was to make the students more engaged with the material of the course. They had already tried many solutions before, this includes, interactive website, online work book, kahoot. They saw from this that Kahoot showed the most promise and that they believed it to be because of the fact it was a game, rather than tyical education method.In order to find the best solution, also based upon what they have expereienced and my skills, we came to the conclusion to try a game. The game would need to be as easy as possible to use, as the target audience for this isn't made of gamers. It would also need a hook,  for these students to even engage with the project. With some heavy brainstorm sessions and talking with other teachers at PIT, we came up with the idea to create a puzzle VR game, which eventually became the Escape Room VR project. They way it would work is as followed; You put on the Meta quest 2 and go into the game, once in the game and in the level, you are tasked with hanging  pictures of skin conditions on the right hook, depended on the hint you got. In the end the client was very happy with the result as we managed to get the students be able to do something related to their course. They found this way of learning their material more engaging, which is what we wanted. ",
         "semester": "Semester 5",
-        "link": "https://github.com/MelodyTheMuse/StudentsProject",
-        "technologies": [],
-        "features": [],
+        "technologies": [
+			"Unity",
+			"C#",
+			"Git",
+			"Visual Studio"
+
+		],
+        "features": [
+			"Game Design",
+			"Game Development",
+			"VR",
+			"Puzzle"
+		],
         "category": "Internship",
-        "company": "PIT Tilburg"
+        "company": "Practoraat Interactieve Technologie (A.K.A PIT) Tilburg"
     },
     {
-        "id": "8",
+        "id": "MusicSystemGodot",
         "name": "Music System for Godot",
         "description": "Music pack  and system for Godot, still under development",
         "fullDescription": "Music pack  and system for Godot, still under development",
@@ -125,7 +199,7 @@
         "company": "Fontys"
     },
     {
-        "id": "9",
+        "id": "Voidscape",
         "name": "Voidscape",
         "description": "This is a game I helped create with a team of 4 other people. I was responsible for a few features of the game. Namely the AI, Boost mechanic, enemy outpost level section, interactables system and the comet that launches at the player.",
         "fullDescription": "This is a game I helped create with a team of 4 other people. I was responsible for a few features of the game. Namely the AI, Boost mechanic, enemy outpost level section, interactables system and the comet that launches at the player. I also helped with the level design and the overall game design. The game was created in Godot with a mix of C# and GDscript. We were aided by a intern of Sint Lucas who created a lot of the art in the game. The game took shape in 20 weeks, the version show below in the trailer is made in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project. The team I worked with created a studio that is called RedByte Studios, where we plan to create more games in the future.",

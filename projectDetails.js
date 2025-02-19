@@ -38,9 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
                             </span>
                         </div>
                     ` : ''}
-                    <div class="project-media-gallery">
-                        ${createMediaContent(project)}
-                    </div>
                     <div class="project-info">
                         <div class="project-metadata">
                             <span class="semester">${project.semester}</span>
@@ -69,6 +66,9 @@ document.addEventListener("DOMContentLoaded", () => {
                             <a href="${project.link}" target="_blank" class="button">Project Link</a>
                         ` : ''}
                     </div>
+                    <div class="project-media-gallery">
+                        ${createMediaContent(project)}
+                    </div>
                 </div>
             `;
 
@@ -89,29 +89,30 @@ document.addEventListener("DOMContentLoaded", () => {
 function createMediaContent(project) {
     let mediaContent = '';
 
-    // Handle video if present
-    if (project.video) {
-        mediaContent += `<video src="${project.video}" controls class="project-media"></video>`;
+    // Handle videos first
+    if (project.video || (project.videos && project.videos.length > 0)) {
+        const videos = project.videos || [project.video];
+        mediaContent += `
+            <div class="video-grid">
+                ${videos.map(video => `
+                    <video controls class="project-media">
+                        <source src="${video}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                `).join('')}
+            </div>`;
     }
 
-    // Handle multiple images
+    // Handle images in a masonry layout
     if (project.images && Array.isArray(project.images)) {
-        if (project.images.length === 1) {
-            mediaContent += `<img src="${project.images[0]}" alt="${project.name}" class="project-media">`;
-        } else if (project.images.length > 1) {
-            mediaContent += `
-                <div class="image-carousel">
-                    ${project.images.map((image, index) => `
-                        <img src="${image}" 
-                             alt="${project.name} - View ${index + 1}" 
-                             class="project-media ${index === 0 ? 'active' : ''}"
-                             data-index="${index}">
-                    `).join('')}
-                    <button class="carousel-btn prev">&lt;</button>
-                    <button class="carousel-btn next">&gt;</button>
-                </div>
-            `;
-        }
+        mediaContent += `
+            <div class="masonry-grid">
+                ${project.images.map(image => ` 
+                    <div class="masonry-item">
+                        <img src="${image}" alt="${project.name}" loading="lazy">
+                    </div>
+                `).join('')}
+            </div>`;
     }
 
     return mediaContent;
