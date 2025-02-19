@@ -91,18 +91,28 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 });
 
+// Add the getBasePath function
+function getBasePath() {
+	// Check if we're on GitHub Pages
+	if (window.location.hostname.includes('github.io')) {
+		return '/Portfolio';
+	}
+	return '';
+}
+
 function createMediaContent(project) {
 	let mediaContent = '';
+	const basePath = getBasePath();
 
 	// Handle multiple images
 	if (project.images && Array.isArray(project.images)) {
 		if (project.images.length === 1) {
-			mediaContent += `<img src="${project.images[0]}" alt="${project.name}" class="project-media">`;
+			mediaContent += `<img src="${basePath}${project.images[0]}" alt="${project.name}" class="project-media">`;
 		} else if (project.images.length > 1) {
 			mediaContent += `
                 <div class="image-carousel">
                     ${project.images.map((image, index) => `
-                        <img src="${image}" 
+                        <img src="${basePath}${image}" 
                              alt="${project.name} - View ${index + 1}" 
                              class="project-media ${index === 0 ? 'active' : ''}"
                              data-index="${index}">
