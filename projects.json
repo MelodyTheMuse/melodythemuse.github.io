@@ -85,9 +85,9 @@
         "id": "CloudPeak",
         "name": "Cloud Peak",
 		"images": [
-			"./images/CloudPeak.png",
-			"./images/CloudPeak2.png",
-			"./images/cloudpeakmap.gif"
+			"../images/CloudPeak.png",
+			"../images/CloudPeak2.png",
+			"../images/cloudpeakmap.gif"
 		],
 		"video": "./videos/cloudpeak.mp4",
         "description": "This game is the individual project that is done in a group of 2, we created a 2d dungeon crawler.",
