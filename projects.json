@@ -13,9 +13,10 @@
         "technologies": [
             "html",
             "css",
-            "Razor Pages",
-            "SQL Database",
-			"Unit Tests"
+            "c#",
+            "sql",
+            "razor pages",
+            "windows"
         ],
         "features": [
             "Dynamic Content",
@@ -41,13 +42,15 @@
         "technologies": [
             "html",
             "css",
-            "React JS",
-            "Java",
-            "SQL Database",
-			"Docker",
-			"CI/CD Pipeline",
-			"E2E Tests",
-			"Unit Tests"
+            "react",
+            "java",
+            "sql",
+            "docker",
+            "ci/cd",
+            "E2E Tests",
+            "Unit Tests",
+            "windows",
+            "intellij"
         ],
         "features": [
             "Dynamic Content",
@@ -66,45 +69,51 @@
         "semester": "Semester 4",
         "link": "https://github.com/Dreamer-steve-Project/Dreamer-Steve",
         "technologies": [
-			"Unity",
-			"Visual Studio",
-			"C#",
-			"Git"
-		],
+            "unity",
+            "visual studio",
+            "c#",
+            "git",
+            "agile",
+            "scrum",
+            "windows"
+        ],
         "features": [
-			"Game Design",
-			"Game Development",
-			"Real testing",
-			"Scrum Agile workflow"
-		],
+            "Game Design",
+            "Game Development",
+            "Real testing",
+            "Scrum Agile workflow"
+        ],
         "category": "Game Design",
         "company": "Fontys",
-		"images": ["./images/dreamersteve.png"]
+        "images": [
+            "./images/dreamersteve.png"
+        ]
     },
     {
         "id": "CloudPeak",
         "name": "Cloud Peak",
-		"images": [
-			"./images/Cloudpeak.png",
-			"./images/Cloudpeak2.png",
-			"./images/cloudpeakmap.gif"
-		],
-		"video": "videos/cloudpeak.mp4",
+        "images": [
+            "./images/Cloudpeak.png",
+            "./images/Cloudpeak2.png",
+            "./images/cloudpeakmap.gif"
+        ],
+        "video": "videos/cloudpeak.mp4",
         "description": "This game is the individual project that is done in a group of 2, we created a 2d dungeon crawler.",
         "fullDescription": "Like with Dreamer steve, this project had to be small and was restricted to a few genres, we choose 2d dungeon crawler. The game was created with Unity and C#.This project was a lot more difficult than Dreamer steve, mainly because of the genre we had choosen. Because we still didn't have a lot of expereince with the engine and the way documentation is writing for a project like this. I worked on some of the art, though some of it wasn't used due to time. I created the dungeon randomizer to have more dynamic levels. Created the UI for the map as well, and ofcourse helped with designing the mechanics and dynamics. It was a very challenging project and it definitly didn't end up how we had thought it would. .",
         "semester": "Semester 4",
         "link": "https://github.com/BenDBrown/Cloudpeak-YOG",
         "technologies": [
-			"Unity",
-			"C#",
-			"Git",
-			"Visual Studio"
-		],
+            "unity",
+            "c#",
+            "git",
+            "visual studio",
+            "windows"
+        ],
         "features": [
-			"Game Design",
-			"Game Development",
-			"Scrum Agile workflow"
-		],
+            "Game Design",
+            "Game Development",
+            "Scrum Agile workflow"
+        ],
         "category": "Game Design",
         "company": "Fontys"
     },
@@ -114,29 +123,33 @@
         "description": "This project was a collaboration between us and a Fontys partner for the course of Game Design.",
         "fullDescription": "This project was a collaboration between us and a Fontys partner for the course of Game Design. We created the game with a group of 12 where I lead the level design team. This team consisted of 3 level designers. The game was created in Unity with c#. The game is a narrative game that follows the story of a young adult who is a purpetrator of a knife crime. The game was created in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project.",
         "semester": "Semester 4",
-		"images": [
-			"./images/kc1.png",
-			"./images/kc2.png",
-			"./images/kc3.png",
-			"./images/kc4.png"
-		],
-		"videos": ["./videos/kc_trailer.mp4","./videos/fmod.mp4"],
+        "images": [
+            "./images/kc1.png",
+            "./images/kc2.png",
+            "./images/kc3.png",
+            "./images/kc4.png"
+        ],
+        "videos": [
+            "./videos/kc_trailer.mp4",
+            "./videos/fmod.mp4"
+        ],
         "link": "https://github.com/davey2206/Knife_Crime",
         "technologies": [
-			"Unity",
-			"C#",
-			"Git",
-			"Visual Studio",
-			"GPT",
-			"FMOD"
-		],
+            "unity",
+            "c#",
+            "git",
+            "visual studio",
+            "gpt",
+            "fmod",
+            "windows"
+        ],
         "features": [
-			"Game Design",
-			"Game Development",
-			"Scrum Agile workflow",
-			"Narrative",
-			"Music"
-		],
+            "Game Design",
+            "Game Development",
+            "Scrum Agile workflow",
+            "Narrative",
+            "Music"
+        ],
         "category": "Game Design",
         "company": "Industry Project Fontys Partner"
     },
@@ -147,20 +160,21 @@
         "fullDescription": "This project was done for my internship at PIT, I tried with a fellow student to create a solution, eventually a  game, for helping rescue children to learn dutch. I created most of the games concept which is as follows; The game has a robot that one student controls across a room in real life, while the robot in game follows the movement. Others tell this student in dutch, which direction they need to go or are dangers. Some of the dangers/obstacles are not avoidable and have to be overcome by creating a strucutre from lego. They can than scan this scruture and it will appear in game. They will hear the dutch word and the idea is that through doing this they get a connection to the word and would be able to remember it. I did a lot of research on this front and it is true that when children are more physically active it can elevate the learning process. I was responsible for the overall game design, level design and the AI. My fellow stuudent was resposible for the robot and it's interaction to the game and giving me information to use in the AI. It went well and I learned that AI is much more difficult than anticipated. In the end the client was happy with the result and we could see that the students did end up at least interacting more and picking up a little dutch. For me the project was cut short due to personal reasons. I did not see this project through the end sadly. One of the gifs shows a screenshot maker I created to get the image of the website the camera was broadcasting to, because my fellow student coulnd't figure out how to send the information to me.",
         "semester": "Semester 5",
         "technologies": [
-			"Unity",
-			"C#",
-			"Git",
-			"Visual Studio",
-			"GPT",
-			"Python"
-		],
+            "unity",
+            "c#",
+            "git",
+            "visual studio",
+            "gpt",
+            "python",
+            "windows"
+        ],
         "features": [
-			"Game Design",
-			"Game Development",
-			"AI",
-			"Lego Recognition",
-			"Narrative"
-		],
+            "Game Design",
+            "Game Development",
+            "AI",
+            "Lego Recognition",
+            "Narrative"
+        ],
         "category": "Internship",
         "company": "Practoraat Interactieve Technologie (A.K.A PIT) Tilburg"
     },
@@ -171,18 +185,20 @@
         "fullDescription": "The project was my second internship also at PIT, as I failed the first. In this project I tried to create a solution for another teacher this time for the beauty specialist course. The goal of the project was to make the students more engaged with the material of the course. They had already tried many solutions before, this includes, interactive website, online work book, kahoot. They saw from this that Kahoot showed the most promise and that they believed it to be because of the fact it was a game, rather than tyical education method.In order to find the best solution, also based upon what they have expereienced and my skills, we came to the conclusion to try a game. The game would need to be as easy as possible to use, as the target audience for this isn't made of gamers. It would also need a hook,  for these students to even engage with the project. With some heavy brainstorm sessions and talking with other teachers at PIT, we came up with the idea to create a puzzle VR game, which eventually became the Escape Room VR project. They way it would work is as followed; You put on the Meta quest 2 and go into the game, once in the game and in the level, you are tasked with hanging  pictures of skin conditions on the right hook, depended on the hint you got. In the end the client was very happy with the result as we managed to get the students be able to do something related to their course. They found this way of learning their material more engaging, which is what we wanted. ",
         "semester": "Semester 5",
         "technologies": [
-			"Unity",
-			"C#",
-			"Git",
-			"Visual Studio"
-
-		],
+            "unity",
+            "c#",
+            "git",
+            "visual studio",
+            "windows",
+            "vr",
+            "linux"
+        ],
         "features": [
-			"Game Design",
-			"Game Development",
-			"VR",
-			"Puzzle"
-		],
+            "Game Design",
+            "Game Development",
+            "VR",
+            "Puzzle"
+        ],
         "category": "Internship",
         "company": "Practoraat Interactieve Technologie (A.K.A PIT) Tilburg"
     },
@@ -193,7 +209,15 @@
         "fullDescription": "Music pack  and system for Godot, still under development",
         "link": "https://github.com/MelodyTheMuse/MusicPackSystemDeepDive",
         "semester": "Semester 6",
-        "technologies": [],
+        "technologies": [
+            "godot",
+            "gdscript",
+            "linux",
+            "windows",
+            "github",
+            "github desktop",
+            "visual studio code"
+        ],
         "features": [],
         "category": "Game Design Advanced",
         "company": "Fontys"
@@ -209,7 +233,16 @@
         "video": "./videos/Trailer_Voidscape_RV2.mp4",
         "link": "https://github.com/BenDBrown/VoidScape",
         "semester": "Semester 6",
-        "technologies": [],
+        "technologies": [
+            "godot",
+            "gdscript",
+            "c#",
+            "github",
+            "visual studio code",
+            "github desktop",
+            "linux",
+            "windows"
+        ],
         "features": [],
         "category": "Game Design Advanced",
         "company": "Fontys"
