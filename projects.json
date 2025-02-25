@@ -159,6 +159,11 @@
         "description": "This was my first internship, I tried to create a solution, eventually a  game, for helping rescue children to learn dutch.",
         "fullDescription": "This project was done for my internship at PIT, I tried with a fellow student to create a solution, eventually a  game, for helping rescue children to learn dutch. I created most of the games concept which is as follows; The game has a robot that one student controls across a room in real life, while the robot in game follows the movement. Others tell this student in dutch, which direction they need to go or are dangers. Some of the dangers/obstacles are not avoidable and have to be overcome by creating a strucutre from lego. They can than scan this scruture and it will appear in game. They will hear the dutch word and the idea is that through doing this they get a connection to the word and would be able to remember it. I did a lot of research on this front and it is true that when children are more physically active it can elevate the learning process. I was responsible for the overall game design, level design and the AI. My fellow stuudent was resposible for the robot and it's interaction to the game and giving me information to use in the AI. It went well and I learned that AI is much more difficult than anticipated. In the end the client was happy with the result and we could see that the students did end up at least interacting more and picking up a little dutch. For me the project was cut short due to personal reasons. I did not see this project through the end sadly. One of the gifs shows a screenshot maker I created to get the image of the website the camera was broadcasting to, because my fellow student coulnd't figure out how to send the information to me.",
         "semester": "Semester 5",
+        "images": [
+            "./images/HelpRoby.png",
+            "./images/HelpRoby2.png"
+        ],
+        "video": "videos/HelpRoby.mp4",
         "technologies": [
             "unity",
             "c#",
@@ -184,6 +189,11 @@
         "description": "This project was created to find a solution for the beauty specialist course to make the students more engaged with the material of the course.",
         "fullDescription": "The project was my second internship also at PIT, as I failed the first. In this project I tried to create a solution for another teacher this time for the beauty specialist course. The goal of the project was to make the students more engaged with the material of the course. They had already tried many solutions before, this includes, interactive website, online work book, kahoot. They saw from this that Kahoot showed the most promise and that they believed it to be because of the fact it was a game, rather than tyical education method.In order to find the best solution, also based upon what they have expereienced and my skills, we came to the conclusion to try a game. The game would need to be as easy as possible to use, as the target audience for this isn't made of gamers. It would also need a hook,  for these students to even engage with the project. With some heavy brainstorm sessions and talking with other teachers at PIT, we came up with the idea to create a puzzle VR game, which eventually became the Escape Room VR project. They way it would work is as followed; You put on the Meta quest 2 and go into the game, once in the game and in the level, you are tasked with hanging  pictures of skin conditions on the right hook, depended on the hint you got. In the end the client was very happy with the result as we managed to get the students be able to do something related to their course. They found this way of learning their material more engaging, which is what we wanted. ",
         "semester": "Semester 5",
+        "images": [
+            "./images/EscapeRoom.png",
+            "./images/EscapeRoom2.png"
+        ],
+        "video": "videos/EscapeRoomDemo.mp4",
         "technologies": [
             "unity",
             "c#",
