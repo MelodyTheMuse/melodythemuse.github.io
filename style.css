@@ -330,6 +330,11 @@ section {
     color: white;
 }
 
+.project-category.full-stack-development {
+    background-color: #ef3426;
+    color: white;
+}
+
 .project-category.game-design {
     background-color: #9C27B0;
     color: white;
@@ -380,4 +385,41 @@ section {
     width: 100%;
     height: auto;
     display: block;
+}
+
+#skills-list li {
+    cursor: pointer;
+    user-select: none;
+}
+
+#skills-list li.active {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+#active-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    min-height: 2rem;
+}
+
+.active-filter {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.active-filter .remove-filter {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.project.hidden {
+    display: none;
 }
