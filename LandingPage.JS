@@ -25,58 +25,110 @@ document.addEventListener("DOMContentLoaded", () => {
 		.then(projects => {
 			projectList.innerHTML = "";
 
-			// Group projects by semester
-			const projectsBySemester = {};
-			projects.forEach(project => {
-				if (!projectsBySemester[project.semester]) {
-					projectsBySemester[project.semester] = [];
+			// Find the highlighted project
+			const highlightedProject = projects.find(project => project.highlighted);
+			const otherProjects = projects.filter(project => !project.highlighted);
+			
+			// Shuffle the non-highlighted projects
+			const shuffledProjects = otherProjects.sort(() => Math.random() - 0.5);
+
+			const projectsContainer = document.createElement('div');
+			projectsContainer.classList.add('projects-grid');
+
+			// Add highlighted project if it exists
+			if (highlightedProject) {
+				const highlightedDiv = document.createElement("div");
+				highlightedDiv.classList.add("project", "highlighted", highlightedProject.prideLevel || 'satisfied');
+				highlightedDiv.setAttribute('data-technologies', JSON.stringify(highlightedProject.technologies));
+
+				highlightedDiv.innerHTML = `
+					<div class="project-content">
+						${createMediaContent(highlightedProject)}
+						<h3>${highlightedProject.name}</h3>
+						${highlightedProject.category ? `
+							<span class="project-category ${highlightedProject.category.toLowerCase().replace(/\s+/g, '-')}">
+								${highlightedProject.category}
+								${highlightedProject.category === 'Internship' && highlightedProject.company ?
+							` - ${highlightedProject.company}` : ''}
+							</span>
+						` : ''}
+						<p>${highlightedProject.description}</p>
+						<a href="project.html?id=${encodeURIComponent(highlightedProject.id)}" class="view-project">View Details</a>
+						${highlightedProject.link ? `<a href="${highlightedProject.link}" target="_blank" class="external-link">Project Link</a>` : ''}
+					</div>
+				`;
+
+				projectsContainer.appendChild(highlightedDiv);
+			}
+
+			// Add remaining projects
+			shuffledProjects.forEach(project => {
+				const projectDiv = document.createElement("div");
+				projectDiv.classList.add("project", project.prideLevel || 'satisfied');
+				projectDiv.setAttribute('data-technologies', JSON.stringify(project.technologies));
+
+				// Create the background banner
+				const bannerDiv = document.createElement("div");
+				bannerDiv.classList.add("background-banner");
+				
+				// Set the banner background image with error handling
+				if (project.images && project.images.length > 0) {
+					// Create a temporary image to verify the image loads
+					const img = new Image();
+					img.onload = () => {
+						bannerDiv.style.backgroundImage = `url(${project.images[0]})`;
+					};
+					img.onerror = () => {
+						console.log(`Failed to load image for ${project.name}`);
+						// Try to use video thumbnail if available
+						if (project.video) {
+							bannerDiv.style.backgroundImage = `url(${project.video.replace('.mp4', '.jpg')})`;
+						}
+					};
+					img.src = project.images[0];
+				} else if (project.video) {
+					// If no images but has video, try to use video thumbnail
+					bannerDiv.style.backgroundImage = `url(${project.video.replace('.mp4', '.jpg')})`;
 				}
-				projectsBySemester[project.semester].push(project);
+
+				projectDiv.innerHTML = `
+					<div class="project-content">
+						${createMediaContent(project)}
+						<h3>${project.name}</h3>
+						${project.category ? `
+							<span class="project-category ${project.category.toLowerCase().replace(/\s+/g, '-')}">
+								${project.category}
+								${project.category === 'Internship' && project.company ?
+							` - ${project.company}` : ''}
+							</span>
+						` : ''}
+						<p>${project.description}</p>
+						<a href="project.html?id=${encodeURIComponent(project.id)}" class="view-project">View Details</a>
+						${project.link ? `<a href="${project.link}" target="_blank" class="external-link">Project Link</a>` : ''}
+					</div>
+				`;
+
+				// Add both the project and its banner to the container
+				projectsContainer.appendChild(projectDiv);
+				projectsContainer.appendChild(bannerDiv);
 			});
 
-			// Sort semesters numerically
-			const sortedSemesters = Object.keys(projectsBySemester).sort((a, b) => {
-				const semesterA = parseInt(a.split(' ')[1]);
-				const semesterB = parseInt(b.split(' ')[1]);
-				return semesterA - semesterB;
-			});
+			projectList.appendChild(projectsContainer);
 
-			sortedSemesters.forEach(semester => {
-				const semesterSection = document.createElement('div');
-				semesterSection.classList.add('semester-section');
-				semesterSection.innerHTML = `<h2 class="semester-title">${semester}</h2>`;
-
-				const semesterProjects = document.createElement('div');
-				semesterProjects.classList.add('semester-projects');
-
-				projectsBySemester[semester].forEach(project => {
-					const projectDiv = document.createElement("div");
-					projectDiv.classList.add("project");
-					projectDiv.setAttribute('data-technologies', JSON.stringify(project.technologies));
-
-					projectDiv.innerHTML = `
-						<div class="project-content">
-							${createMediaContent(project)}
-							<h3>${project.name}</h3>
-							${project.category ? `
-								<span class="project-category ${project.category.toLowerCase().replace(/\s+/g, '-')}">
-									${project.category}
-									${project.category === 'Internship' && project.company ?
-								` - ${project.company}` : ''}
-								</span>
-							` : ''}
-							<p>${project.description}</p>
-							<a href="project.html?id=${encodeURIComponent(project.id)}" class="view-project">View Details</a>
-							${project.link ? `<a href="${project.link}" target="_blank" class="external-link">Project Link</a>` : ''}
-						</div>
-					`;
-
-					semesterProjects.appendChild(projectDiv);
+			// Add a function to preload images
+			function preloadProjectImages(projects) {
+				projects.forEach(project => {
+					if (project.images && project.images.length > 0) {
+						project.images.forEach(imgSrc => {
+							const img = new Image();
+							img.src = imgSrc;
+						});
+					}
 				});
+			}
 
-				semesterSection.appendChild(semesterProjects);
-				projectList.appendChild(semesterSection);
-			});
+			// Call preload function after loading projects
+			preloadProjectImages(projects);
 		})
 		.catch(error => {
 			projectList.innerHTML = `
