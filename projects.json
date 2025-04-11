@@ -1,70 +1,7 @@
-[
-    {
-        "id": "DestinySite",
-        "name": "First website on HTML and CSS",
-        "images": [
-            "./images/DestinySite.png",
-            "./images/DestinySite2.png"
-        ],
-        "semester": "Semester 2",
-        "description": "This is my first website on HTML, CSS, Razor pages with C# backend. This was the first real project for semester 2 and for the study as a whole.",
-        "fullDescription": "This is my first website, this was the first real project for semester 2 and for the study as a whole.The requirements for this project were simple, 1. use C# with razor pages and SOLID principles, 2. use SQL database, 3. make a functional website with a database. We weren't focused on the design of a webstie but mostly the backend of it. The backend was created with C# and the frontend was created with Razor pages, HTML and CSS. The Database was created with SQL. we used the SOLID principles to create a functional backend with the database. It was a difficult concept to understand at first but, managed in the end to understand it. I use SOLID still in projects today. ",
-        "link": "",
-        "technologies": [
-            "html",
-            "css",
-            "c#",
-            "sql",
-            "razor pages",
-            "windows"
-        ],
-        "features": [
-            "Dynamic Content",
-            "Responsive Design",
-            "Database Integration",
-            "SOLID Principles"
-        ],
-        "category": "Software Development",
-        "company": "Fontys"
-    },
-    {
-        "id": "FlappySite",
-        "name": "Second website in JS and Java",
-        "description": "Second project was created on Java, JavaScript with React, HTML, CSS and SQL.",
-        "fullDescription": "This is my second website on javaScript with React,Java and CSS. The requirements for this project were more complex. 1. it had to have a Java backend with a JS react frontend. 2. it had to have a SQL Database, that later had to be created by the the backend. 3. Create a CI/CD pipeline for the project. 4. Create a docker container for the project. 5. Make End to End aka E2E tests for the project. 6. Make Unit tests for the project. 7. Add a unique feature to the website. With these requiremeents in mind I chose to create a game within JS as a fun venture. The game is based on flappy bird and is fully made with math on the React. This wasn't a fun project, I had completely underestimated the time and skills it would take to create the game itself, thankfully I could find a good source to build the game from and managed to get what is show above. The rest was a bit more managable and it was all done in time. Docker was something that caused many issues, mainly due to conflicting implementation we were taught with the tests that docker couldn't run. Overall I am happy with the result and learned skills I still use today.",
-        "link": "",
-        "semester": "Semester 3",
-        "video": "videos/flappy.mp4",
-        "images": [
-            "./images/flappysite.png",
-            "./images/flappysite2.png"
-        ],
-        "technologies": [
-            "html",
-            "css",
-            "react",
-            "java",
-            "sql",
-            "docker",
-            "ci/cd",
-            "E2E Tests",
-            "Unit Tests",
-            "windows",
-            "intellij"
-        ],
-        "features": [
-            "Dynamic Content",
-            "Responsive Design",
-            "Database Integration",
-            "Game"
-        ],
-        "category": "Full Stack Development",
-        "company": "Fontys"
-    },
-    {
+[ {
         "id": "DreamerSteve",
         "name": "Dreamer steve",
-        "description": "3D platformer game for the start of the Game Design course",
+        "description": "The very first game project I worked on that was somewhat finished, it was a fun but very chaotic experience. Especially since we had designed someone elses game and the game we ended up with was also  designed by others, we simply changed things we ended up not liking.",
         "fullDescription": "This was the first project we made for this semester and it being the first had some issues and restrictions. The restrictions were simple, it had to be one of a few genres, we choose platfomer with 3D dimension. It had to be small, couldn't be larger than a few levels. We started with the documentation process and it had a fun twist, we gave our 1 page document to a different group, they had to make a 10 pager out of it for us and we for them. It was intressting to see what they made from our concept and we tried to stick to that design document, however we quickly learned that it wasn't possible. We made a few changes and to keep the game fun additions, like a grapple hook. I helped with multiple aspects of the game, from mechanics to level design. It was a chaotic but fun project to work on, I definitly had a lot of fun and learned a lot from it.",
         "semester": "Semester 4",
         "link": "https://github.com/Dreamer-steve-Project/Dreamer-Steve",
@@ -87,7 +24,8 @@
         "company": "Fontys",
         "images": [
             "./images/dreamersteve.png"
-        ]
+        ],
+        "prideLevel": "proud"
     },
     {
         "id": "CloudPeak",
@@ -98,7 +36,7 @@
             "./images/cloudpeakmap.gif"
         ],
         "video": "videos/cloudpeak.mp4",
-        "description": "This game is the individual project that is done in a group of 2, we created a 2d dungeon crawler.",
+        "description": "This was a stressfull project, as it happened together with DreamerSteve, but it was an intressting time. It took longer to create the concept than we had anticipated, which should have been something we expected as this was our first project with only two people.",
         "fullDescription": "Like with Dreamer steve, this project had to be small and was restricted to a few genres, we choose 2d dungeon crawler. The game was created with Unity and C#.This project was a lot more difficult than Dreamer steve, mainly because of the genre we had choosen. Because we still didn't have a lot of expereince with the engine and the way documentation is writing for a project like this. I worked on some of the art, though some of it wasn't used due to time. I created the dungeon randomizer to have more dynamic levels. Created the UI for the map as well, and ofcourse helped with designing the mechanics and dynamics. It was a very challenging project and it definitly didn't end up how we had thought it would. .",
         "semester": "Semester 4",
         "link": "https://github.com/BenDBrown/Cloudpeak-YOG",
@@ -115,13 +53,14 @@
             "Scrum Agile workflow"
         ],
         "category": "Game Design",
-        "company": "Fontys"
+        "company": "Fontys",
+        "prideLevel": "proud"
     },
     {
         "id": "KnifeCrime",
         "name": "Knife crime",
-        "description": "This project was a collaboration between us and a Fontys partner for the course of Game Design.",
-        "fullDescription": "This project was a collaboration between us and a Fontys partner for the course of Game Design. We created the game with a group of 12 where I lead the level design team. This team consisted of 3 level designers. The game was created in Unity with c#. The game is a narrative game that follows the story of a young adult who is a purpetrator of a knife crime. The game was created in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project.",
+        "description": "This was the first game design project I did for an actuall client and my first experience with applied gaming, it was so much fun to try to create an applied gaming solution to help reduce the teens with knifes on the street. It was super hard, but that helped with learning a lot. ",
+        "fullDescription": "During the production of KnifeCrime I worked mostly on the level design and the sound/music design. I managed a small team of 4 total inculding me to, it went alright, lookign back there are some improvements that I would have made to my management, that I did implement in my short time as scrum master of Voidscape. I learned a lot about makeing level deisgn and sound because that is what I worked on, but the more usefull things I learned during this project was that I enjoyed doing this enourmesly. Trying to figure out how we can get this message across and still have a fun game, was an immensly fun task to tackle. Did we succeed? Not entirely, but we got close, people did enjoy it, just the message did not really get across.",
         "semester": "Semester 4",
         "images": [
             "./images/kc1.png",
@@ -151,12 +90,13 @@
             "Music"
         ],
         "category": "Game Design",
-        "company": "Industry Project Fontys Partner"
+        "company": "Industry Project Fontys Partner",
+        "prideLevel": "very-proud"
     },
     {
         "id": "HelpRoby",
         "name": "Help roby",
-        "description": "This was my first internship, I tried to create a solution, eventually a  game, for helping rescue children to learn dutch.",
+        "description": "This was a difficult project, as I worked together with another student, we were both trying to do something we haven't done before. Working with robotica, this was the work of the other student and working with AI/LLM, which was my job. I did not like the project much by the end, due to frustrations with the AI ",
         "fullDescription": "This project was done for my internship at PIT, I tried with a fellow student to create a solution, eventually a  game, for helping rescue children to learn dutch. I created most of the games concept which is as follows; The game has a robot that one student controls across a room in real life, while the robot in game follows the movement. Others tell this student in dutch, which direction they need to go or are dangers. Some of the dangers/obstacles are not avoidable and have to be overcome by creating a strucutre from lego. They can than scan this scruture and it will appear in game. They will hear the dutch word and the idea is that through doing this they get a connection to the word and would be able to remember it. I did a lot of research on this front and it is true that when children are more physically active it can elevate the learning process. I was responsible for the overall game design, level design and the AI. My fellow stuudent was resposible for the robot and it's interaction to the game and giving me information to use in the AI. It went well and I learned that AI is much more difficult than anticipated. In the end the client was happy with the result and we could see that the students did end up at least interacting more and picking up a little dutch. For me the project was cut short due to personal reasons. I did not see this project through the end sadly. One of the gifs shows a screenshot maker I created to get the image of the website the camera was broadcasting to, because my fellow student coulnd't figure out how to send the information to me.",
         "semester": "Semester 5",
         "images": [
@@ -181,12 +121,13 @@
             "Narrative"
         ],
         "category": "Internship",
-        "company": "Practoraat Interactieve Technologie (A.K.A PIT) Tilburg"
+        "company": "Practoraat Interactieve Technologie (A.K.A PIT) Tilburg",
+        "prideLevel": "proud"
     },
     {
         "id": "EscapeRoomVR",
         "name": "Escape Room VR Project",
-        "description": "This project was created to find a solution for the beauty specialist course to make the students more engaged with the material of the course.",
+        "description": "This was a very intresting project, working with VR was not the easiest thing, mostly due to Unity not wanting to preform well, as well as some challenges I had not originally considered. I did reach a prototype that I am happy with, it managed to make the students learn something in a fun manner. ",
         "fullDescription": "The project was my second internship also at PIT, as I failed the first. In this project I tried to create a solution for another teacher this time for the beauty specialist course. The goal of the project was to make the students more engaged with the material of the course. They had already tried many solutions before, this includes, interactive website, online work book, kahoot. They saw from this that Kahoot showed the most promise and that they believed it to be because of the fact it was a game, rather than tyical education method.In order to find the best solution, also based upon what they have expereienced and my skills, we came to the conclusion to try a game. The game would need to be as easy as possible to use, as the target audience for this isn't made of gamers. It would also need a hook,  for these students to even engage with the project. With some heavy brainstorm sessions and talking with other teachers at PIT, we came up with the idea to create a puzzle VR game, which eventually became the Escape Room VR project. They way it would work is as followed; You put on the Meta quest 2 and go into the game, once in the game and in the level, you are tasked with hanging  pictures of skin conditions on the right hook, depended on the hint you got. In the end the client was very happy with the result as we managed to get the students be able to do something related to their course. They found this way of learning their material more engaging, which is what we wanted. ",
         "semester": "Semester 5",
         "images": [
@@ -210,12 +151,13 @@
             "Puzzle"
         ],
         "category": "Internship",
-        "company": "Practoraat Interactieve Technologie (A.K.A PIT) Tilburg"
+        "company": "Practoraat Interactieve Technologie (A.K.A PIT) Tilburg",
+        "prideLevel": "proud"
     },
     {
         "id": "MusicSystemGodot",
         "name": "Music System for Godot",
-        "description": "Music pack  and system for Godot, still under development",
+        "description": "Still working on this one, hence no picture,  it is meant to be a plugin that will allow other student designers to add dynamic music to their scene's with more of an ease  than it would normally have. Because a lot of the time that is what is missing in projects, the music in the game. It can really amplify a moment and it is felt when it is missing.",
         "fullDescription": "Music pack  and system for Godot, still under development",
         "link": "https://github.com/MelodyTheMuse/MusicPackSystemDeepDive",
         "semester": "Semester 6",
@@ -230,13 +172,14 @@
         ],
         "features": [],
         "category": "Game Design Advanced",
-        "company": "Fontys"
+        "company": "Fontys",
+        "prideLevel": "proud"
     },
     {
         "id": "Voidscape",
         "name": "Voidscape",
-        "description": "This is a game I helped create with a team of 4 other people. I was responsible for a few features of the game. Namely the AI, Boost mechanic, enemy outpost level section, interactables system and the comet that launches at the player.",
-        "fullDescription": "This is a game I helped create with a team of 4 other people. I was responsible for a few features of the game. Namely the AI, Boost mechanic, enemy outpost level section, interactables system and the comet that launches at the player. I also helped with the level design and the overall game design. The game was created in Godot with a mix of C# and GDscript. We were aided by a intern of Sint Lucas who created a lot of the art in the game. The game took shape in 20 weeks, the version show below in the trailer is made in 10 weeks. I enjoyed working on this project and I am proud of the result. I also learned a lot about game design and game development from this project. The team I worked with created a studio that is called RedByte Studios, where we plan to create more games in the future.",
+        "description": "This game is the one of my favourite projects as of yet, it was a lot of fun to work on, we worked on it with a group of friends with the hopeful idea to create our own company for from it. I worked on the implementation of the AI, our boosting mechanic as well as a level design, I also started working on my Interactables plugin that makes it easier to allow other designers to add interactables. Working with Godot was a treat as well, especially because it was a better workflow.",
+        "fullDescription": "During the production of voidscape I worked on the NPC behaviour for a good chunck, I learend a lot  especially with the difficult implementation we had for the ship in the game. Like that when creating this behaviour next time, we should just let the NPC have their own physics and not the exact same one as the player, because it will be pain. Working on the blinking feature was a lot more fun, learned a lot more about the Rigidbody and the characterbody for this engine. At the end of the project I created and enemy outpost, which was pretty okay, strapped for time I did the best version I could make in the time frame,  as well as a Astroid that always makes people laugh at how fast that thing zips through the game, not the best thing, but people are having fun and that is all that I wanted to happen with it, so that's a win in my book. Compared to the other projects, this was not as smooth as some, but in terms of what I learned and could do it was definitly my best and favourite. I learned a new Engine, that I love now, learned  better practices to work with a group. It ",
         "images": [
             "./images/Voidscape.png"
         ],
@@ -254,7 +197,9 @@
             "windows"
         ],
         "features": [],
+        "highlighted": true,
         "category": "Game Design Advanced",
-        "company": "Fontys"
+        "company": "Fontys",
+        "prideLevel": "very-proud"
     }
 ]
