@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 });
 
-// Reuse the createMediaContent function from LandingPage.JS
+// Reuse the createMediaContent function from LandingPage.js
 function createMediaContent(project) {
     let mediaContent = '';
 
